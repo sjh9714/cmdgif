@@ -1,0 +1,106 @@
+diff --git a/src/capture/mod.rs b/src/capture/mod.rs
+index 6a7a721..a349100 100644
+--- a/src/capture/mod.rs
++++ b/src/capture/mod.rs
+@@ -5,7 +5,7 @@ use std::sync::{Arc, Mutex};
+ use std::time::{Duration, Instant};
+ 
+ use anyhow::{anyhow, Result};
+-use portable_pty::{native_pty_system, Child, CommandBuilder, MasterPty, PtySize};
++use portable_pty::{native_pty_system, Child, CommandBuilder, ExitStatus, MasterPty, PtySize};
+ 
+ use crate::redact::Rules;
+ use crate::term::{self, Frame};
+@@ -148,9 +148,10 @@ impl Session {
+         }
+     }
+ 
+-    pub fn wait_exit(&mut self) {
+-        let _ = self.child.wait();
++    pub fn wait_exit(&mut self) -> Result<ExitStatus> {
++        let status = self.child.wait();
+         std::thread::sleep(DRAIN_GRACE);
++        Ok(status?)
+     }
+ 
+     pub fn finish(mut self, tail: Duration) -> Vec<(Duration, Frame)> {
+diff --git a/src/main.rs b/src/main.rs
+index ffe1989..350bf09 100644
+--- a/src/main.rs
++++ b/src/main.rs
+@@ -1,5 +1,6 @@
+ use std::io::{Read, Write};
+ use std::path::{Path, PathBuf};
++use std::process::ExitCode;
+ use std::time::Duration;
+ 
+ use anyhow::{Context, Result};
+@@ -228,14 +229,14 @@ struct RenderArgs {
+     raster: RasterArgs,
+ }
+ 
+-fn main() -> Result<()> {
++fn main() -> Result<ExitCode> {
+     let cli = Cli::parse();
+     match cli.cmd {
+         None => {
+             ui::install_panic_hook();
+             ui::run()
+         }
+-        Some(Cmd::Record(a)) => record(a),
++        Some(Cmd::Record(a)) => return record(a),
+         Some(Cmd::Build(a)) => build(a),
+         Some(Cmd::Render(a)) => rerender(a),
+         Some(Cmd::Themes) => theme_list(),
+@@ -251,7 +252,8 @@ fn main() -> Result<()> {
+                 Ok(())
+             }
+         },
+-    }
++    }?;
++    Ok(ExitCode::SUCCESS)
+ }
+ 
+ fn bar(palette: &theme::Palette) -> String {
+@@ -395,7 +397,7 @@ fn config_from(style: &StyleArgs) -> Config {
+     }
+ }
+ 
+-fn record(a: RecordArgs) -> Result<()> {
++fn record(a: RecordArgs) -> Result<ExitCode> {
+     let (term_cols, term_rows) = crossterm::terminal::size().unwrap_or((90, 22));
+     let cols = a.cols.unwrap_or(term_cols.clamp(20, 200));
+     let rows = a.rows.unwrap_or(term_rows.clamp(6, 60));
+@@ -443,21 +445,28 @@ fn record(a: RecordArgs) -> Result<()> {
+         });
+     }
+ 
+-    session.wait_exit();
++    let status = session.wait_exit();
+ 
+     if raw_mode {
+         let _ = crossterm::terminal::disable_raw_mode();
+     }
+ 
+     let frames = session.collect();
++    let status = status.context("waiting for the recorded command")?;
+ 
+     if let Some(path) = &a.save {
+         save_capture(path, &a.command, &cfg, &frames, &rules)?;
+     }
+-    if !want_svg {
+-        return Ok(());
++    if want_svg {
++        emit(&cfg, theme, &frames, &a.raster)?;
+     }
+-    emit(&cfg, theme, &frames, &a.raster)
++    if !status.success() {
++        eprintln!("ttysvg: recorded command {status}");
++    }
++    // ExitCode's portable API accepts u8; never truncate a wider failure to zero.
++    Ok(ExitCode::from(
++        u8::try_from(status.exit_code()).unwrap_or(1),
++    ))
+ }
+ 
+ fn save_capture(

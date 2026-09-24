@@ -1,0 +1,5 @@
+/bin/ttysvg
+/bin/ttysvg.exe
+/node_modules/
+/*.tgz
+/demo-*/

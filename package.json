@@ -1,0 +1,50 @@
+{
+  "name": "cmdgif",
+  "version": "0.1.0-beta.1",
+  "description": "Record a short command as GIF and SVG.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjh9714/cmdgif.git"
+  },
+  "homepage": "https://github.com/sjh9714/cmdgif#readme",
+  "bugs": {
+    "url": "https://github.com/sjh9714/cmdgif/issues"
+  },
+  "keywords": [
+    "terminal",
+    "gif",
+    "readme",
+    "cli",
+    "windows"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "tag": "beta",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bin": {
+    "cmdgif": "bin/preview-cli.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "os": [
+    "darwin",
+    "win32"
+  ],
+  "cpu": [
+    "arm64",
+    "x64"
+  ],
+  "files": [
+    "bin/",
+    "LICENSE",
+    "LICENSE.ttysvg",
+    "candidate.patch",
+    "UPSTREAM.json",
+    "README.md",
+    "third-party/"
+  ]
+}

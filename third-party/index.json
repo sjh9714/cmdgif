@@ -1,0 +1,4101 @@
+{
+  "schemaVersion": 1,
+  "collectionComplete": true,
+  "legalComplianceAssessed": false,
+  "binaryLinkageAssessed": false,
+  "scope": "Collected source notice superset and supplied Rust library copyright; not a legal-compliance or binary-linkage attestation.",
+  "packages": [
+    {
+      "name": "adler2",
+      "version": "2.0.1",
+      "license": "0BSD OR MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/861399f8c21c042b110517e76dc6b63a2b334276c8cf17412fc3c8908ca8dc17.txt",
+          "bytes": 665,
+          "sha256": "861399f8c21c042b110517e76dc6b63a2b334276c8cf17412fc3c8908ca8dc17"
+        },
+        {
+          "storedPath": "notices/8ada45cd9f843acf64e4722ae262c622a2b3b3007c7310ef36ac1061a30f6adb.txt",
+          "bytes": 10860,
+          "sha256": "8ada45cd9f843acf64e4722ae262c622a2b3b3007c7310ef36ac1061a30f6adb"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#adler2@2.0.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "aho-corasick",
+      "version": "1.1.4",
+      "license": "Unlicense OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f.txt",
+          "bytes": 126,
+          "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f"
+        },
+        {
+          "storedPath": "notices/0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f.txt",
+          "bytes": 1081,
+          "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#aho-corasick@1.1.4",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "allocator-api2",
+      "version": "0.2.21",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/20fe7b00e904ed690e3b9fd6073784d3fc428141dbd10b81c01fd143d0797f58.txt",
+          "bytes": 9899,
+          "sha256": "20fe7b00e904ed690e3b9fd6073784d3fc428141dbd10b81c01fd143d0797f58"
+        },
+        {
+          "storedPath": "notices/36516aefdc84c5d5a1e7485425913a22dbda69eb1930c5e84d6ae4972b5194b9.txt",
+          "bytes": 1046,
+          "sha256": "36516aefdc84c5d5a1e7485425913a22dbda69eb1930c5e84d6ae4972b5194b9"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#allocator-api2@0.2.21",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "anstream",
+      "version": "1.0.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#anstream@1.0.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "anstyle-parse",
+      "version": "1.0.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#anstyle-parse@1.0.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "anstyle-query",
+      "version": "1.1.5",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#anstyle-query@1.1.5",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "anstyle-wincon",
+      "version": "3.0.11",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#anstyle-wincon@3.0.11",
+      "metadataTargets": [
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "anstyle",
+      "version": "1.0.14",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#anstyle@1.0.14",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "anyhow",
+      "version": "1.0.104",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#anyhow@1.0.104",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "arrayref",
+      "version": "0.3.9",
+      "license": "BSD-2-Clause",
+      "files": [
+        {
+          "storedPath": "notices/1bc7e6f475b3ec99b7e2643411950ae2368c250dd4c5c325f80f9811362a94a1.txt",
+          "bytes": 1336,
+          "sha256": "1bc7e6f475b3ec99b7e2643411950ae2368c250dd4c5c325f80f9811362a94a1"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#arrayref@0.3.9",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "arrayvec",
+      "version": "0.7.8",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/4da95ec4ecb65b738d470b7d762894ad9c97da93e6cbfb18b570fc2c96f4b871.txt",
+          "bytes": 1071,
+          "sha256": "4da95ec4ecb65b738d470b7d762894ad9c97da93e6cbfb18b570fc2c96f4b871"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#arrayvec@0.7.8",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "autocfg",
+      "version": "1.5.1",
+      "license": "Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/27995d58ad5c1145c1a8cd86244ce844886958a35eb2b78c6b772748669999ac.txt",
+          "bytes": 1054,
+          "sha256": "27995d58ad5c1145c1a8cd86244ce844886958a35eb2b78c6b772748669999ac"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#autocfg@1.5.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "base64",
+      "version": "0.23.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/ab499c75a0f0da8e0fe83bf9ba3a27e5c39705310f07107c6c66b69958d2401c.txt",
+          "bytes": 1093,
+          "sha256": "ab499c75a0f0da8e0fe83bf9ba3a27e5c39705310f07107c6c66b69958d2401c"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#base64@0.23.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "bitflags",
+      "version": "1.3.2",
+      "license": "MIT/Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb.txt",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#bitflags@1.3.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "bitflags",
+      "version": "2.13.1",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb.txt",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#bitflags@2.13.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "bumpalo",
+      "version": "3.20.3",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/65f94e99ddaf4f5d1782a6dae23f35d4293a9a01444a13135a6887017d353cee.txt",
+          "bytes": 1059,
+          "sha256": "65f94e99ddaf4f5d1782a6dae23f35d4293a9a01444a13135a6887017d353cee"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#bumpalo@3.20.3",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "bytemuck_derive",
+      "version": "1.11.0",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb.txt",
+          "bytes": 10398,
+          "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb"
+        },
+        {
+          "storedPath": "notices/9df9ba60a11af705f2e451b53762686e615d86f76b169cf075c3237730dbd7e2.txt",
+          "bytes": 1110,
+          "sha256": "9df9ba60a11af705f2e451b53762686e615d86f76b169cf075c3237730dbd7e2"
+        },
+        {
+          "storedPath": "notices/84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151.txt",
+          "bytes": 851,
+          "sha256": "84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#bytemuck_derive@1.11.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "bytemuck",
+      "version": "1.25.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb.txt",
+          "bytes": 10398,
+          "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb"
+        },
+        {
+          "storedPath": "notices/9df9ba60a11af705f2e451b53762686e615d86f76b169cf075c3237730dbd7e2.txt",
+          "bytes": 1110,
+          "sha256": "9df9ba60a11af705f2e451b53762686e615d86f76b169cf075c3237730dbd7e2"
+        },
+        {
+          "storedPath": "notices/84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151.txt",
+          "bytes": 851,
+          "sha256": "84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#bytemuck@1.25.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "byteorder-lite",
+      "version": "0.1.0",
+      "license": "Unlicense OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f.txt",
+          "bytes": 1081,
+          "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#byteorder-lite@0.1.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "cassowary",
+      "version": "0.3.0",
+      "license": "MIT / Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/38b4da6afcf8d01bf9fae5b09dc5446a4e166556b7d66f3ba03305f6c05188ed.txt",
+          "bytes": 11558,
+          "sha256": "38b4da6afcf8d01bf9fae5b09dc5446a4e166556b7d66f3ba03305f6c05188ed"
+        },
+        {
+          "storedPath": "notices/190ca8d01e23551e4f49e9601a2ca1a740a4a3a9270ad3b5c70f044b8972ef50.txt",
+          "bytes": 1097,
+          "sha256": "190ca8d01e23551e4f49e9601a2ca1a740a4a3a9270ad3b5c70f044b8972ef50"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#cassowary@0.3.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "castaway",
+      "version": "0.2.4",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/f98e09091d5ae02b2f2ec1ead4f7f28c4c44d1cb98b078739ba67091637e170c.txt",
+          "bytes": 1075,
+          "sha256": "f98e09091d5ae02b2f2ec1ead4f7f28c4c44d1cb98b078739ba67091637e170c"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#castaway@0.2.4",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "cc",
+      "version": "1.4.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt",
+          "bytes": 1057,
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#cc@1.4.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "cfg-if",
+      "version": "1.0.4",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt",
+          "bytes": 1057,
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#cfg-if@1.0.4",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "clap_builder",
+      "version": "4.6.5",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#clap_builder@4.6.5",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "clap_derive",
+      "version": "4.6.4",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#clap_derive@4.6.4",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "clap_lex",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#clap_lex@1.1.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "clap",
+      "version": "4.6.5",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#clap@4.6.5",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "color_quant",
+      "version": "1.1.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/592dc80f1a865d20d61a2006a2d29ce34a2bc28cd7e868ab300fdeed6da154ca.txt",
+          "bytes": 1083,
+          "sha256": "592dc80f1a865d20d61a2006a2d29ce34a2bc28cd7e868ab300fdeed6da154ca"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#color_quant@1.1.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "colorchoice",
+      "version": "1.0.5",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#colorchoice@1.0.5",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "compact_str",
+      "version": "0.8.2",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/0d52feec79589df30138dad3800323fe5686b764b73347330a2dfef8ac83efe8.txt",
+          "bytes": 1073,
+          "sha256": "0d52feec79589df30138dad3800323fe5686b764b73347330a2dfef8ac83efe8"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#compact_str@0.8.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "console",
+      "version": "0.16.4",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/2022c11b24fc1e50fa06a5959e40198a3464f560729ad3d00139abb8a328362d.txt",
+          "bytes": 1112,
+          "sha256": "2022c11b24fc1e50fa06a5959e40198a3464f560729ad3d00139abb8a328362d"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#console@0.16.4",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "crc32fast",
+      "version": "1.5.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/61d383b05b87d78f94d2937e2580cce47226d17823c0430fbcad09596537efcf.txt",
+          "bytes": 1097,
+          "sha256": "61d383b05b87d78f94d2937e2580cce47226d17823c0430fbcad09596537efcf"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#crc32fast@1.5.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "crossterm_winapi",
+      "version": "0.9.1",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/aca4760f2a5eba9ce9d4448fe7cd3fcf98245a8315ede59ebd0c6085dd542e61.txt",
+          "bytes": 1083,
+          "sha256": "aca4760f2a5eba9ce9d4448fe7cd3fcf98245a8315ede59ebd0c6085dd542e61"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#crossterm_winapi@0.9.1",
+      "metadataTargets": [
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "crossterm",
+      "version": "0.28.1",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/aca4760f2a5eba9ce9d4448fe7cd3fcf98245a8315ede59ebd0c6085dd542e61.txt",
+          "bytes": 1083,
+          "sha256": "aca4760f2a5eba9ce9d4448fe7cd3fcf98245a8315ede59ebd0c6085dd542e61"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#crossterm@0.28.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "darling_core",
+      "version": "0.23.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/8ea93490d74a5a1b1af3ff71d786271b3f1e5f0bea79ac16e02ec533cef040d6.txt",
+          "bytes": 1067,
+          "sha256": "8ea93490d74a5a1b1af3ff71d786271b3f1e5f0bea79ac16e02ec533cef040d6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#darling_core@0.23.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "darling_macro",
+      "version": "0.23.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/8ea93490d74a5a1b1af3ff71d786271b3f1e5f0bea79ac16e02ec533cef040d6.txt",
+          "bytes": 1067,
+          "sha256": "8ea93490d74a5a1b1af3ff71d786271b3f1e5f0bea79ac16e02ec533cef040d6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#darling_macro@0.23.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "darling",
+      "version": "0.23.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/8ea93490d74a5a1b1af3ff71d786271b3f1e5f0bea79ac16e02ec533cef040d6.txt",
+          "bytes": 1067,
+          "sha256": "8ea93490d74a5a1b1af3ff71d786271b3f1e5f0bea79ac16e02ec533cef040d6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#darling@0.23.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "data-url",
+      "version": "0.3.2",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5.txt",
+          "bytes": 1072,
+          "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#data-url@0.3.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "downcast-rs",
+      "version": "1.2.1",
+      "license": "MIT/Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90.txt",
+          "bytes": 10850,
+          "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90"
+        },
+        {
+          "storedPath": "notices/fb252fecf98d9af8f1d9201c5860319a514f5a8a24700dc84fc6ea287a7a4958.txt",
+          "bytes": 1073,
+          "sha256": "fb252fecf98d9af8f1d9201c5860319a514f5a8a24700dc84fc6ea287a7a4958"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#downcast-rs@1.2.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "either",
+      "version": "1.17.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/7576269ea71f767b99297934c0b2367532690f8c4badc695edf8e04ab6a1e545.txt",
+          "bytes": 1043,
+          "sha256": "7576269ea71f767b99297934c0b2367532690f8c4badc695edf8e04ab6a1e545"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#either@1.17.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "encode_unicode",
+      "version": "1.0.0",
+      "license": "Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "storedPath": "notices/da23be69ad3ccf7a5823d62152efcd2b15de9482a5014fcb1b02844662d86abd.txt",
+          "bytes": 1022,
+          "sha256": "da23be69ad3ccf7a5823d62152efcd2b15de9482a5014fcb1b02844662d86abd"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#encode_unicode@1.0.0",
+      "metadataTargets": [
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "equivalent",
+      "version": "1.0.2",
+      "license": "Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/7365cc8878a1d7ce155a58c4ca09c3d7a6be413efa5334a80ea842912b669349.txt",
+          "bytes": 1049,
+          "sha256": "7365cc8878a1d7ce155a58c4ca09c3d7a6be413efa5334a80ea842912b669349"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#equivalent@1.0.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "errno",
+      "version": "0.3.14",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/8764a597675778ddfd4e25f81b08a05dbcf089ac05662df7613fe67f150e3aa2.txt",
+          "bytes": 1054,
+          "sha256": "8764a597675778ddfd4e25f81b08a05dbcf089ac05662df7613fe67f150e3aa2"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#errno@0.3.14",
+      "metadataTargets": [
+        "aarch64-apple-darwin"
+      ]
+    },
+    {
+      "name": "euclid",
+      "version": "0.22.14",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/ec82b96487e9e778ee610c7ab245162464782cfa1f555c2299333f8dbe5c036a.txt",
+          "bytes": 321,
+          "sha256": "ec82b96487e9e778ee610c7ab245162464782cfa1f555c2299333f8dbe5c036a"
+        },
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/62065228e42caebca7e7d7db1204cbb867033de5982ca4009928915e4095f3a3.txt",
+          "bytes": 1067,
+          "sha256": "62065228e42caebca7e7d7db1204cbb867033de5982ca4009928915e4095f3a3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#euclid@0.22.14",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "fastrand",
+      "version": "2.5.0",
+      "license": "Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#fastrand@2.5.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "fdeflate",
+      "version": "0.3.7",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594.txt",
+          "bytes": 10174,
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "storedPath": "notices/c77a4cf9da729987d0fe7ccd811e3bd27393914ddf3d23467c18cc22954513b3.txt",
+          "bytes": 1036,
+          "sha256": "c77a4cf9da729987d0fe7ccd811e3bd27393914ddf3d23467c18cc22954513b3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#fdeflate@0.3.7",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "filedescriptor",
+      "version": "0.8.3",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/191c46fcf52061382b1c51a70311eb9081381cc158e5899f3739473a9432185b.txt",
+          "bytes": 1068,
+          "sha256": "191c46fcf52061382b1c51a70311eb9081381cc158e5899f3739473a9432185b"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#filedescriptor@0.8.3",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "find-msvc-tools",
+      "version": "0.1.9",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt",
+          "bytes": 1057,
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#find-msvc-tools@0.1.9",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "flate2",
+      "version": "1.1.9",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/025436edff4cfcdde17a5811fdea78892d8482efd1abdec5a17872d07a4f2112.txt",
+          "bytes": 1062,
+          "sha256": "025436edff4cfcdde17a5811fdea78892d8482efd1abdec5a17872d07a4f2112"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#flate2@1.1.9",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "float-cmp",
+      "version": "0.9.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/40be1e77825d7e49485a2e43d89bed29dfff29f8f529e71d3c683656021f0d08.txt",
+          "bytes": 1075,
+          "sha256": "40be1e77825d7e49485a2e43d89bed29dfff29f8f529e71d3c683656021f0d08"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#float-cmp@0.9.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "foldhash",
+      "version": "0.1.5",
+      "license": "Zlib",
+      "files": [
+        {
+          "storedPath": "notices/b1181a40b2a7b25cf66fd01481713bc1005df082c53ef73e851e55071b102744.txt",
+          "bytes": 856,
+          "sha256": "b1181a40b2a7b25cf66fd01481713bc1005df082c53ef73e851e55071b102744"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#foldhash@0.1.5",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "font-types",
+      "version": "0.12.2",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/eba684204073ed715c4abb48129acdfd2bff8ae48339e6a7da3b341d3027b7f0.txt",
+          "bytes": 9701,
+          "sha256": "eba684204073ed715c4abb48129acdfd2bff8ae48339e6a7da3b341d3027b7f0"
+        },
+        {
+          "storedPath": "notices/7b4c9a3946dfcea7967582760e963e27799e225dcf20565c8ef55324bb017427.txt",
+          "bytes": 1065,
+          "sha256": "7b4c9a3946dfcea7967582760e963e27799e225dcf20565c8ef55324bb017427"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#font-types@0.12.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "fontdb",
+      "version": "0.24.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/59a1fdac3bd550043599bd159fd70f09a1108c2b09e3751d39b11e1ff8e51f00.txt",
+          "bytes": 1083,
+          "sha256": "59a1fdac3bd550043599bd159fd70f09a1108c2b09e3751d39b11e1ff8e51f00"
+        },
+        {
+          "storedPath": "notices/b84fdd2c3da5db56385cdbb639795e90aa3e035c53bc3591135f18df3331451f.txt",
+          "bytes": 404,
+          "sha256": "b84fdd2c3da5db56385cdbb639795e90aa3e035c53bc3591135f18df3331451f"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#fontdb@0.24.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "getrandom",
+      "version": "0.4.3",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/aaff376532ea30a0cd5330b9502ad4a4c8bf769c539c87ffe78819d188a18ebf.txt",
+          "bytes": 10849,
+          "sha256": "aaff376532ea30a0cd5330b9502ad4a4c8bf769c539c87ffe78819d188a18ebf"
+        },
+        {
+          "storedPath": "notices/523a42c25d245dde9c015f882cec7f4555aad883382a6cf19b4b7d9b2cd5419b.txt",
+          "bytes": 1130,
+          "sha256": "523a42c25d245dde9c015f882cec7f4555aad883382a6cf19b4b7d9b2cd5419b"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#getrandom@0.4.3",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "gif",
+      "version": "0.14.2",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/769f80b5bcb42ed0af4e4d2fd74e1ac9bf843cb80c5a29219d1ef3544428a6bb.txt",
+          "bytes": 10846,
+          "sha256": "769f80b5bcb42ed0af4e4d2fd74e1ac9bf843cb80c5a29219d1ef3544428a6bb"
+        },
+        {
+          "storedPath": "notices/77257f3d2181236b1aee78920238062ae64efe13c5d858b2db126e79c9e1b14f.txt",
+          "bytes": 1071,
+          "sha256": "77257f3d2181236b1aee78920238062ae64efe13c5d858b2db126e79c9e1b14f"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#gif@0.14.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "harfrust",
+      "version": "0.12.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/3a7c3f0b887abb7c638faf022d29257418458614c6724b120ceeffb279f9c7d2.txt",
+          "bytes": 1117,
+          "sha256": "3a7c3f0b887abb7c638faf022d29257418458614c6724b120ceeffb279f9c7d2"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#harfrust@0.12.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "hashbrown",
+      "version": "0.15.5",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2.txt",
+          "bytes": 1060,
+          "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#hashbrown@0.15.5",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "hashbrown",
+      "version": "0.17.1",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2.txt",
+          "bytes": 1060,
+          "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#hashbrown@0.17.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "heck",
+      "version": "0.5.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0.txt",
+          "bytes": 1071,
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#heck@0.5.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "ident_case",
+      "version": "1.0.1",
+      "license": "MIT/Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1.txt",
+          "bytes": 1036,
+          "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#ident_case@1.0.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "image-webp",
+      "version": "0.2.4",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594.txt",
+          "bytes": 10174,
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "storedPath": "notices/c77a4cf9da729987d0fe7ccd811e3bd27393914ddf3d23467c18cc22954513b3.txt",
+          "bytes": 1036,
+          "sha256": "c77a4cf9da729987d0fe7ccd811e3bd27393914ddf3d23467c18cc22954513b3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#image-webp@0.2.4",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "imagesize",
+      "version": "0.15.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/fa0d694967d5c279e70a5c7b7e4b9929e4c1c8c1b8506998e66fc2f1547b200a.txt",
+          "bytes": 1064,
+          "sha256": "fa0d694967d5c279e70a5c7b7e4b9929e4c1c8c1b8506998e66fc2f1547b200a"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#imagesize@0.15.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "indexmap",
+      "version": "2.14.0",
+      "license": "Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/ecc269ef87fd38a1d98e30bfac9ba964a9dbd9315c3770fed98d4d7cb5882055.txt",
+          "bytes": 1049,
+          "sha256": "ecc269ef87fd38a1d98e30bfac9ba964a9dbd9315c3770fed98d4d7cb5882055"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#indexmap@2.14.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "indoc",
+      "version": "2.0.7",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#indoc@2.0.7",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "insta",
+      "version": "1.48.0",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#insta@1.48.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "instability",
+      "version": "0.3.12",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/0352320d9929e862c1f07b59caacc3cd1bbacfec0ad4136bf4c89d4ca8939781.txt",
+          "bytes": 1114,
+          "sha256": "0352320d9929e862c1f07b59caacc3cd1bbacfec0ad4136bf4c89d4ca8939781"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#instability@0.3.12",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "ioctl-rs",
+      "version": "0.1.6",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/871afd9d691846de71e0b83812ba9c7ff00bc7b3ad102dedcaa109f2246d52ad.txt",
+          "bytes": 1059,
+          "sha256": "871afd9d691846de71e0b83812ba9c7ff00bc7b3ad102dedcaa109f2246d52ad"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#ioctl-rs@0.1.6",
+      "metadataTargets": [
+        "aarch64-apple-darwin"
+      ]
+    },
+    {
+      "name": "is_terminal_polyfill",
+      "version": "1.70.2",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#is_terminal_polyfill@1.70.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "itertools",
+      "version": "0.13.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/7576269ea71f767b99297934c0b2367532690f8c4badc695edf8e04ab6a1e545.txt",
+          "bytes": 1043,
+          "sha256": "7576269ea71f767b99297934c0b2367532690f8c4badc695edf8e04ab6a1e545"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#itertools@0.13.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "itoa",
+      "version": "1.0.18",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#itoa@1.0.18",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "kurbo",
+      "version": "0.13.1",
+      "license": "Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "storedPath": "notices/23c23145f6eac25c28cdcc03d38506a5712a9a8cffb5bd5301457f6173ea696e.txt",
+          "bytes": 1055,
+          "sha256": "23c23145f6eac25c28cdcc03d38506a5712a9a8cffb5bd5301457f6173ea696e"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#kurbo@0.13.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "lazy_static",
+      "version": "1.5.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/0621878e61f0d0fda054bcbe02df75192c28bde1ecc8289cbd86aeba2dd72720.txt",
+          "bytes": 1071,
+          "sha256": "0621878e61f0d0fda054bcbe02df75192c28bde1ecc8289cbd86aeba2dd72720"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#lazy_static@1.5.0",
+      "metadataTargets": [
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "libc",
+      "version": "0.2.189",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/123a331b5dbf04c30097fa43b8f858bc85df671fe776de498d01f3d6b7c1f69e.txt",
+          "bytes": 1066,
+          "sha256": "123a331b5dbf04c30097fa43b8f858bc85df671fe776de498d01f3d6b7c1f69e"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#libc@0.2.189",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "libwebp-sys2",
+      "version": "0.1.11",
+      "license": "BSD-3-Clause",
+      "files": [
+        {
+          "storedPath": "notices/c70262ec81640982235d4794fb6e2aadbb324a4f91c5b60435eacd3ebbba236a.txt",
+          "bytes": 1461,
+          "sha256": "c70262ec81640982235d4794fb6e2aadbb324a4f91c5b60435eacd3ebbba236a"
+        },
+        {
+          "storedPath": "notices/5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf.txt",
+          "bytes": 1496,
+          "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+        },
+        {
+          "storedPath": "notices/cc3273e0694ea5896145e0677699b53471b03ea43021ddc50e7923fbb9f5023c.txt",
+          "bytes": 1436,
+          "sha256": "cc3273e0694ea5896145e0677699b53471b03ea43021ddc50e7923fbb9f5023c"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#libwebp-sys2@0.1.11",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "libwebp-sys2",
+      "version": "0.2.0",
+      "license": "BSD-3-Clause",
+      "files": [
+        {
+          "storedPath": "notices/c70262ec81640982235d4794fb6e2aadbb324a4f91c5b60435eacd3ebbba236a.txt",
+          "bytes": 1461,
+          "sha256": "c70262ec81640982235d4794fb6e2aadbb324a4f91c5b60435eacd3ebbba236a"
+        },
+        {
+          "storedPath": "notices/5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf.txt",
+          "bytes": 1496,
+          "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+        },
+        {
+          "storedPath": "notices/cc3273e0694ea5896145e0677699b53471b03ea43021ddc50e7923fbb9f5023c.txt",
+          "bytes": 1436,
+          "sha256": "cc3273e0694ea5896145e0677699b53471b03ea43021ddc50e7923fbb9f5023c"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#libwebp-sys2@0.2.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "lock_api",
+      "version": "0.4.14",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5.txt",
+          "bytes": 1071,
+          "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#lock_api@0.4.14",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "log",
+      "version": "0.4.33",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb.txt",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#log@0.4.33",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "lru",
+      "version": "0.12.5",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/061dc50af2cd9340703daf61978af3200cf681b12ea67a323c33ba109a23a45e.txt",
+          "bytes": 1071,
+          "sha256": "061dc50af2cd9340703daf61978af3200cf681b12ea67a323c33ba109a23a45e"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#lru@0.12.5",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "memchr",
+      "version": "2.8.3",
+      "license": "Unlicense OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f.txt",
+          "bytes": 126,
+          "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f"
+        },
+        {
+          "storedPath": "notices/0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f.txt",
+          "bytes": 1081,
+          "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#memchr@2.8.3",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "memmap2",
+      "version": "0.9.11",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/04ea4849dba9dcae07113850c6f1b1a69052c625210639914eee352023f750ad.txt",
+          "bytes": 10835,
+          "sha256": "04ea4849dba9dcae07113850c6f1b1a69052c625210639914eee352023f750ad"
+        },
+        {
+          "storedPath": "notices/0d25d03b5ab49576178ad0cae7a2648d12c17ad0452fe49c07e55e4b59aa5257.txt",
+          "bytes": 1091,
+          "sha256": "0d25d03b5ab49576178ad0cae7a2648d12c17ad0452fe49c07e55e4b59aa5257"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#memmap2@0.9.11",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "memoffset",
+      "version": "0.6.5",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/3234ac55816264ee7b6c7ee27efd61cf0a1fe775806870e3d9b4c41ea73c5cb1.txt",
+          "bytes": 1055,
+          "sha256": "3234ac55816264ee7b6c7ee27efd61cf0a1fe775806870e3d9b4c41ea73c5cb1"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#memoffset@0.6.5",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "miniz_oxide",
+      "version": "0.8.9",
+      "license": "MIT OR Zlib OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/4108245a1f2df9d4e94df8abed5b4ba0759bb2f9b40a6b939f1be141077ae50b.txt",
+          "bytes": 1213,
+          "sha256": "4108245a1f2df9d4e94df8abed5b4ba0759bb2f9b40a6b939f1be141077ae50b"
+        },
+        {
+          "storedPath": "notices/0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594.txt",
+          "bytes": 10174,
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "storedPath": "notices/799e9ca9d179295ef372f25d3769cdda7d25bb2668add6a6a1e22d1e4c678b8d.txt",
+          "bytes": 1212,
+          "sha256": "799e9ca9d179295ef372f25d3769cdda7d25bb2668add6a6a1e22d1e4c678b8d"
+        },
+        {
+          "storedPath": "notices/0a54e647fe54104658b5e563c04c6f9edf251710e47bce692e0bd990a4ddaa39.txt",
+          "bytes": 984,
+          "sha256": "0a54e647fe54104658b5e563c04c6f9edf251710e47bce692e0bd990a4ddaa39"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#miniz_oxide@0.8.9",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "mio",
+      "version": "1.2.2",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/07919255c7e04793d8ea760d6c2ce32d19f9ff02bdbdde3ce90b1e1880929a9b.txt",
+          "bytes": 1082,
+          "sha256": "07919255c7e04793d8ea760d6c2ce32d19f9ff02bdbdde3ce90b1e1880929a9b"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#mio@1.2.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin"
+      ]
+    },
+    {
+      "name": "nix",
+      "version": "0.25.1",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/66e3ee1fa7f909ad3c612d556f2a0cdabcd809ad6e66f3b0605015ac64841b70.txt",
+          "bytes": 1097,
+          "sha256": "66e3ee1fa7f909ad3c612d556f2a0cdabcd809ad6e66f3b0605015ac64841b70"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#nix@0.25.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "num-traits",
+      "version": "0.2.19",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb.txt",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#num-traits@0.2.19",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "once_cell_polyfill",
+      "version": "1.70.2",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#once_cell_polyfill@1.70.2",
+      "metadataTargets": [
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "once_cell",
+      "version": "1.21.4",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#once_cell@1.21.4",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "parking_lot_core",
+      "version": "0.9.12",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5.txt",
+          "bytes": 1071,
+          "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#parking_lot_core@0.9.12",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "parking_lot",
+      "version": "0.12.5",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5.txt",
+          "bytes": 1071,
+          "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#parking_lot@0.12.5",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "paste",
+      "version": "1.0.15",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#paste@1.0.15",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "pico-args",
+      "version": "0.5.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/f71452d91682fdae0ca948b18cfed53a953d1237740dd80371c76a5c1c7bbe91.txt",
+          "bytes": 1061,
+          "sha256": "f71452d91682fdae0ca948b18cfed53a953d1237740dd80371c76a5c1c7bbe91"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#pico-args@0.5.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "pin-utils",
+      "version": "0.1.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a4db788775cb25f2da419a7ccd3f1f89c3d2cfa8748fb25257596b88183b4c77.txt",
+          "bytes": 10841,
+          "sha256": "a4db788775cb25f2da419a7ccd3f1f89c3d2cfa8748fb25257596b88183b4c77"
+        },
+        {
+          "storedPath": "notices/28802412d2bfbafe432b305634413b41a984d30fba0df41d30aa2c8a2077c5b1.txt",
+          "bytes": 1065,
+          "sha256": "28802412d2bfbafe432b305634413b41a984d30fba0df41d30aa2c8a2077c5b1"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#pin-utils@0.1.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "pkg-config",
+      "version": "0.3.33",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt",
+          "bytes": 1057,
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#pkg-config@0.3.33",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "png",
+      "version": "0.18.1",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/eaf40297c75da471f7cda1f3458e8d91b4b2ec866e609527a13acfa93b638652.txt",
+          "bytes": 1048,
+          "sha256": "eaf40297c75da471f7cda1f3458e8d91b4b2ec866e609527a13acfa93b638652"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#png@0.18.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "polycool",
+      "version": "0.4.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "storedPath": "notices/23c23145f6eac25c28cdcc03d38506a5712a9a8cffb5bd5301457f6173ea696e.txt",
+          "bytes": 1055,
+          "sha256": "23c23145f6eac25c28cdcc03d38506a5712a9a8cffb5bd5301457f6173ea696e"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#polycool@0.4.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "portable-pty",
+      "version": "0.8.1",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/191c46fcf52061382b1c51a70311eb9081381cc158e5899f3739473a9432185b.txt",
+          "bytes": 1068,
+          "sha256": "191c46fcf52061382b1c51a70311eb9081381cc158e5899f3739473a9432185b"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#portable-pty@0.8.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "proc-macro2",
+      "version": "1.0.107",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#proc-macro2@1.0.107",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "quick-error",
+      "version": "2.0.1",
+      "license": "MIT/Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/058f01fe181608d027fcde7e528fc03ea3cf90f30903c407644b0a9bbc54f500.txt",
+          "bytes": 1070,
+          "sha256": "058f01fe181608d027fcde7e528fc03ea3cf90f30903c407644b0a9bbc54f500"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#quick-error@2.0.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "quote",
+      "version": "1.0.47",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#quote@1.0.47",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "ratatui",
+      "version": "0.29.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/6cfda12c40ae6c1175a0d1798c56e4d7089d9c781a2dbe29a53076defde829d0.txt",
+          "bytes": 1132,
+          "sha256": "6cfda12c40ae6c1175a0d1798c56e4d7089d9c781a2dbe29a53076defde829d0"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#ratatui@0.29.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "read-fonts",
+      "version": "0.41.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/eba684204073ed715c4abb48129acdfd2bff8ae48339e6a7da3b341d3027b7f0.txt",
+          "bytes": 9701,
+          "sha256": "eba684204073ed715c4abb48129acdfd2bff8ae48339e6a7da3b341d3027b7f0"
+        },
+        {
+          "storedPath": "notices/7b4c9a3946dfcea7967582760e963e27799e225dcf20565c8ef55324bb017427.txt",
+          "bytes": 1065,
+          "sha256": "7b4c9a3946dfcea7967582760e963e27799e225dcf20565c8ef55324bb017427"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#read-fonts@0.41.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "regex-automata",
+      "version": "0.4.16",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb.txt",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#regex-automata@0.4.16",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "regex-syntax",
+      "version": "0.8.11",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb.txt",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        },
+        {
+          "storedPath": "notices/74db5baf44a41b1000312c673544b3374e4198af5605c7f9080a402cec42cfa3.txt",
+          "bytes": 2847,
+          "sha256": "74db5baf44a41b1000312c673544b3374e4198af5605c7f9080a402cec42cfa3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#regex-syntax@0.8.11",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "regex",
+      "version": "1.13.1",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb.txt",
+          "bytes": 1071,
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#regex@1.13.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "resvg",
+      "version": "0.48.1",
+      "license": "Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9.txt",
+          "bytes": 10173,
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+        },
+        {
+          "storedPath": "notices/f5d934dc281b44e0003ee461ac740b18b6629a454decd872c774d34e4ee0b21d.txt",
+          "bytes": 1057,
+          "sha256": "f5d934dc281b44e0003ee461ac740b18b6629a454decd872c774d34e4ee0b21d"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#resvg@0.48.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "rgb",
+      "version": "0.8.53",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/457b464bc0fba8a3d67d2458569104f5611869f0c1563a1a12d9c51a0bca9261.txt",
+          "bytes": 1063,
+          "sha256": "457b464bc0fba8a3d67d2458569104f5611869f0c1563a1a12d9c51a0bca9261"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#rgb@0.8.53",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "roxmltree",
+      "version": "0.21.1",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/fffe218c1e349e1d482a05677f2ce850502f88298174d77f6ac7c04821db7899.txt",
+          "bytes": 1083,
+          "sha256": "fffe218c1e349e1d482a05677f2ce850502f88298174d77f6ac7c04821db7899"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#roxmltree@0.21.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "rustix",
+      "version": "0.38.44",
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/377c2e7c53250cc5905c0b0532d35973392af16ffb9596a41d99d202cf3617c9.txt",
+          "bytes": 853,
+          "sha256": "377c2e7c53250cc5905c0b0532d35973392af16ffb9596a41d99d202cf3617c9"
+        },
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5.txt",
+          "bytes": 12243,
+          "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#rustix@0.38.44",
+      "metadataTargets": [
+        "aarch64-apple-darwin"
+      ]
+    },
+    {
+      "name": "rustix",
+      "version": "1.1.4",
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/377c2e7c53250cc5905c0b0532d35973392af16ffb9596a41d99d202cf3617c9.txt",
+          "bytes": 853,
+          "sha256": "377c2e7c53250cc5905c0b0532d35973392af16ffb9596a41d99d202cf3617c9"
+        },
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5.txt",
+          "bytes": 12243,
+          "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#rustix@1.1.4",
+      "metadataTargets": [
+        "aarch64-apple-darwin"
+      ]
+    },
+    {
+      "name": "rustversion",
+      "version": "1.0.23",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#rustversion@1.0.23",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "ryu",
+      "version": "1.0.23",
+      "license": "Apache-2.0 OR BSL-1.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566.txt",
+          "bytes": 1338,
+          "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#ryu@1.0.23",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "scopeguard",
+      "version": "1.2.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/fb77f0a9c53e473abe5103c8632ef9f0f2874d4fb3f17cb2d8c661aab9cee9d7.txt",
+          "bytes": 1097,
+          "sha256": "fb77f0a9c53e473abe5103c8632ef9f0f2874d4fb3f17cb2d8c661aab9cee9d7"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#scopeguard@1.2.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "serde_core",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#serde_core@1.0.229",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "serde_derive",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#serde_derive@1.0.229",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "serde_json",
+      "version": "1.0.151",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#serde_json@1.0.151",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "serde_spanned",
+      "version": "0.6.9",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#serde_spanned@0.6.9",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "serde",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#serde@1.0.229",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "serial-core",
+      "version": "0.4.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/871afd9d691846de71e0b83812ba9c7ff00bc7b3ad102dedcaa109f2246d52ad.txt",
+          "bytes": 1059,
+          "sha256": "871afd9d691846de71e0b83812ba9c7ff00bc7b3ad102dedcaa109f2246d52ad"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#serial-core@0.4.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "serial-unix",
+      "version": "0.4.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/871afd9d691846de71e0b83812ba9c7ff00bc7b3ad102dedcaa109f2246d52ad.txt",
+          "bytes": 1059,
+          "sha256": "871afd9d691846de71e0b83812ba9c7ff00bc7b3ad102dedcaa109f2246d52ad"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#serial-unix@0.4.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin"
+      ]
+    },
+    {
+      "name": "serial-windows",
+      "version": "0.4.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/1e881ecf2862d01e6e5bc2b861e46886d2a6fb01499c0c508a209a7271b13cf2.txt",
+          "bytes": 10,
+          "sha256": "1e881ecf2862d01e6e5bc2b861e46886d2a6fb01499c0c508a209a7271b13cf2"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#serial-windows@0.4.0",
+      "metadataTargets": [
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "serial",
+      "version": "0.4.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/871afd9d691846de71e0b83812ba9c7ff00bc7b3ad102dedcaa109f2246d52ad.txt",
+          "bytes": 1059,
+          "sha256": "871afd9d691846de71e0b83812ba9c7ff00bc7b3ad102dedcaa109f2246d52ad",
+          "path": "upstream-root/LICENSE",
+          "upstreamProvenance": {
+            "kind": "verified-upstream-repository-root-license",
+            "sourceURL": "https://github.com/dcuddeback/serial-rs/blob/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/LICENSE",
+            "exactCommit": "7ed6540c2789b7c7365cd7a89fcb7bac7c567de8",
+            "releaseTag": "v0.4.0",
+            "gitBlob": "19f28b12c2ba3f910c7872777604d3afa287bb33",
+            "sha256": "871afd9d691846de71e0b83812ba9c7ff00bc7b3ad102dedcaa109f2246d52ad",
+            "bytes": 1059,
+            "rationale": "The registry archive omitted this notice. The supplied evidence maps 6 distributed files to the exact upstream release commit using matching Git blobs. The repository-root notice is included without changing the registry cache.",
+            "registryArchive": {
+              "name": "serial-0.4.0.crate",
+              "sha256": "a1237a96570fc377c13baa1b88c7589ab66edced652e43ffb17088f003db3e86",
+              "lockfileChecksumMatched": true
+            },
+            "sourceCorrespondence": [
+              {
+                "cratePath": "Cargo.toml",
+                "repositoryPath": "serial/Cargo.toml",
+                "bytes": 743,
+                "sha256": "004b18acbd586d62ee32e3847d558f8993411ec37f332a6119bff2b669f4ff29",
+                "gitBlob": "db5856faf3a96a84445ddcca1b96debfc52404d1",
+                "upstreamGitBlob": "db5856faf3a96a84445ddcca1b96debfc52404d1",
+                "byteIdentityByGitBlob": true,
+                "sourceURL": "https://github.com/dcuddeback/serial-rs/blob/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/serial/Cargo.toml"
+              },
+              {
+                "cratePath": "README.md",
+                "repositoryPath": "serial/README.md",
+                "bytes": 2447,
+                "sha256": "40c5f9b91270c1ac368c3ce74c3e9910d6b335e877d5f25299099b81201923f9",
+                "gitBlob": "6a9567a365872699838cf4cae170211978b669c0",
+                "upstreamGitBlob": "6a9567a365872699838cf4cae170211978b669c0",
+                "byteIdentityByGitBlob": true,
+                "sourceURL": "https://github.com/dcuddeback/serial-rs/blob/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/serial/README.md"
+              },
+              {
+                "cratePath": "src/lib.rs",
+                "repositoryPath": "serial/src/lib.rs",
+                "bytes": 3402,
+                "sha256": "cc29084f5b75a4f44f8e78a62084a2f6c186acc4a64d0e6c61ea3e08195fb609",
+                "gitBlob": "07623dccb58d98db8b6348e80cc4f18602a3bdb0",
+                "upstreamGitBlob": "07623dccb58d98db8b6348e80cc4f18602a3bdb0",
+                "byteIdentityByGitBlob": true,
+                "sourceURL": "https://github.com/dcuddeback/serial-rs/blob/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/serial/src/lib.rs"
+              },
+              {
+                "cratePath": "examples/open_port.rs",
+                "repositoryPath": "serial/examples/open_port.rs",
+                "bytes": 360,
+                "sha256": "7751c805617ddeb1111c9aac24cdb68c95d6c2fbbb1fb8e319bffca483034810",
+                "gitBlob": "78f8f6c7177c19b7bf1314e481a6b481908855b2",
+                "upstreamGitBlob": "78f8f6c7177c19b7bf1314e481a6b481908855b2",
+                "byteIdentityByGitBlob": true,
+                "sourceURL": "https://github.com/dcuddeback/serial-rs/blob/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/serial/examples/open_port.rs"
+              },
+              {
+                "cratePath": "examples/probe_pins.rs",
+                "repositoryPath": "serial/examples/probe_pins.rs",
+                "bytes": 1398,
+                "sha256": "a1ec57ffba91dbde63a45450f77bdef2b8ca65263842f79f471ca6d64b3be34a",
+                "gitBlob": "0e974b50030a1445e03fa4592fc9f9643016a61f",
+                "upstreamGitBlob": "0e974b50030a1445e03fa4592fc9f9643016a61f",
+                "byteIdentityByGitBlob": true,
+                "sourceURL": "https://github.com/dcuddeback/serial-rs/blob/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/serial/examples/probe_pins.rs"
+              },
+              {
+                "cratePath": "examples/read_write.rs",
+                "repositoryPath": "serial/examples/read_write.rs",
+                "bytes": 898,
+                "sha256": "fc72f79c61ea306eee86023cea9b6d8cc4432daca3c1dc77d47b8a3e56936407",
+                "gitBlob": "4670611be215367e9f5dd389e111c3fe82fa6838",
+                "upstreamGitBlob": "4670611be215367e9f5dd389e111c3fe82fa6838",
+                "byteIdentityByGitBlob": true,
+                "sourceURL": "https://github.com/dcuddeback/serial-rs/blob/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/serial/examples/read_write.rs"
+              }
+            ]
+          }
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#serial@0.4.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "shared_library",
+      "version": "0.1.9",
+      "license": "Apache-2.0/MIT",
+      "files": [
+        {
+          "storedPath": "notices/c144680885b29e4719e2a51f0aab5439a1e02d980692b5aaf086cae12727f28b.txt",
+          "bytes": 10849,
+          "sha256": "c144680885b29e4719e2a51f0aab5439a1e02d980692b5aaf086cae12727f28b"
+        },
+        {
+          "storedPath": "notices/1c07d19ccbe2578665ab7d8c63f71559f890eb8d2a82fa39d0206b7a3414064f.txt",
+          "bytes": 1057,
+          "sha256": "1c07d19ccbe2578665ab7d8c63f71559f890eb8d2a82fa39d0206b7a3414064f"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#shared_library@0.1.9",
+      "metadataTargets": [
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "shell-words",
+      "version": "1.1.1",
+      "license": "MIT/Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/848d7bf14c618c39f1e29fcac2318a2fcc4254045ba7e2f6f5fa799e057225cb.txt",
+          "bytes": 10708,
+          "sha256": "848d7bf14c618c39f1e29fcac2318a2fcc4254045ba7e2f6f5fa799e057225cb"
+        },
+        {
+          "storedPath": "notices/f76b7831ee8f42d3ac38919101e4ceb9f56aeb7796cdfe8a5ef52e26acedcbbf.txt",
+          "bytes": 1058,
+          "sha256": "f76b7831ee8f42d3ac38919101e4ceb9f56aeb7796cdfe8a5ef52e26acedcbbf"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#shell-words@1.1.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "shlex",
+      "version": "2.0.1",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/553fffcd9b1cb158bc3e9edc35da85ca5c3b3d7d2e61c883ebcfa8a65814b583.txt",
+          "bytes": 566,
+          "sha256": "553fffcd9b1cb158bc3e9edc35da85ca5c3b3d7d2e61c883ebcfa8a65814b583"
+        },
+        {
+          "storedPath": "notices/4455bf75a91154108304cb283e0fea9948c14f13e20d60887cf2552449dea3b1.txt",
+          "bytes": 1092,
+          "sha256": "4455bf75a91154108304cb283e0fea9948c14f13e20d60887cf2552449dea3b1"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#shlex@2.0.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "signal-hook-mio",
+      "version": "0.2.5",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/503558bfefe66ca15e4e3f7955b3cb0ec87fd52f29bf24b336af7bd00e946d5c.txt",
+          "bytes": 1068,
+          "sha256": "503558bfefe66ca15e4e3f7955b3cb0ec87fd52f29bf24b336af7bd00e946d5c"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#signal-hook-mio@0.2.5",
+      "metadataTargets": [
+        "aarch64-apple-darwin"
+      ]
+    },
+    {
+      "name": "signal-hook-registry",
+      "version": "1.4.8",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/503558bfefe66ca15e4e3f7955b3cb0ec87fd52f29bf24b336af7bd00e946d5c.txt",
+          "bytes": 1068,
+          "sha256": "503558bfefe66ca15e4e3f7955b3cb0ec87fd52f29bf24b336af7bd00e946d5c"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#signal-hook-registry@1.4.8",
+      "metadataTargets": [
+        "aarch64-apple-darwin"
+      ]
+    },
+    {
+      "name": "signal-hook",
+      "version": "0.3.18",
+      "license": "Apache-2.0/MIT",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/503558bfefe66ca15e4e3f7955b3cb0ec87fd52f29bf24b336af7bd00e946d5c.txt",
+          "bytes": 1068,
+          "sha256": "503558bfefe66ca15e4e3f7955b3cb0ec87fd52f29bf24b336af7bd00e946d5c"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#signal-hook@0.3.18",
+      "metadataTargets": [
+        "aarch64-apple-darwin"
+      ]
+    },
+    {
+      "name": "simd-adler32",
+      "version": "0.3.10",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/42a35170233e83e18856792e748de4c1ce4a63b2afce9a370c89ef3fe23f9f2d.txt",
+          "bytes": 1078,
+          "sha256": "42a35170233e83e18856792e748de4c1ce4a63b2afce9a370c89ef3fe23f9f2d"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#simd-adler32@0.3.10",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "similar",
+      "version": "2.7.0",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#similar@2.7.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "simplecss",
+      "version": "0.2.2",
+      "license": "Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/0b5f24524360e15bcf9fb79bca875f5aa62f01f94f2988e23238c7ec0e6e8784.txt",
+          "bytes": 1082,
+          "sha256": "0b5f24524360e15bcf9fb79bca875f5aa62f01f94f2988e23238c7ec0e6e8784"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#simplecss@0.2.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "siphasher",
+      "version": "1.0.3",
+      "license": "MIT/Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c962ee4d1d05ddc138b202b2540219ebc57893fcf97b364852094a9a94ce1365.txt",
+          "bytes": 281,
+          "sha256": "c962ee4d1d05ddc138b202b2540219ebc57893fcf97b364852094a9a94ce1365"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#siphasher@1.0.3",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "skrifa",
+      "version": "0.44.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/eba684204073ed715c4abb48129acdfd2bff8ae48339e6a7da3b341d3027b7f0.txt",
+          "bytes": 9701,
+          "sha256": "eba684204073ed715c4abb48129acdfd2bff8ae48339e6a7da3b341d3027b7f0"
+        },
+        {
+          "storedPath": "notices/7b4c9a3946dfcea7967582760e963e27799e225dcf20565c8ef55324bb017427.txt",
+          "bytes": 1065,
+          "sha256": "7b4c9a3946dfcea7967582760e963e27799e225dcf20565c8ef55324bb017427"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#skrifa@0.44.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "slotmap",
+      "version": "1.1.1",
+      "license": "Zlib",
+      "files": [
+        {
+          "storedPath": "notices/6cec81441b2ab2b5090954c1fb5d0bcca81b86487b5849061fa8952d20ef67d4.txt",
+          "bytes": 884,
+          "sha256": "6cec81441b2ab2b5090954c1fb5d0bcca81b86487b5849061fa8952d20ef67d4"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#slotmap@1.1.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "smallvec",
+      "version": "1.15.2",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/0b28172679e0009b655da42797c03fd163a3379d5cfa67ba1f1655e974a2a1a9.txt",
+          "bytes": 1072,
+          "sha256": "0b28172679e0009b655da42797c03fd163a3379d5cfa67ba1f1655e974a2a1a9"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#smallvec@1.15.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "static_assertions",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "storedPath": "notices/ea084a2373ebc1f0902c09266e7bf25a05ab3814c1805bb017ffa7308f90c061.txt",
+          "bytes": 1072,
+          "sha256": "ea084a2373ebc1f0902c09266e7bf25a05ab3814c1805bb017ffa7308f90c061"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#static_assertions@1.1.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "strict-num",
+      "version": "0.1.1",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/3085885678bb161f6c472bbd331f66a2550b555eb76128f7f8247779128199c0.txt",
+          "bytes": 1060,
+          "sha256": "3085885678bb161f6c472bbd331f66a2550b555eb76128f7f8247779128199c0"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#strict-num@0.1.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "strsim",
+      "version": "0.11.1",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/1e697ce8d21401fbf1bddd9b5c3fd4c4c79ae1e3bdf51f81761c85e11d5a89cd.txt",
+          "bytes": 1166,
+          "sha256": "1e697ce8d21401fbf1bddd9b5c3fd4c4c79ae1e3bdf51f81761c85e11d5a89cd"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#strsim@0.11.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "strum_macros",
+      "version": "0.26.4",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/8bce3b45e49ecd1461f223b46de133d8f62cd39f745cfdaf81bee554b908bd42.txt",
+          "bytes": 1072,
+          "sha256": "8bce3b45e49ecd1461f223b46de133d8f62cd39f745cfdaf81bee554b908bd42"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#strum_macros@0.26.4",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "strum",
+      "version": "0.26.3",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/8bce3b45e49ecd1461f223b46de133d8f62cd39f745cfdaf81bee554b908bd42.txt",
+          "bytes": 1072,
+          "sha256": "8bce3b45e49ecd1461f223b46de133d8f62cd39f745cfdaf81bee554b908bd42"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#strum@0.26.3",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "svgtypes",
+      "version": "0.16.1",
+      "license": "Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/f3c9fe731c701ed77fd5fbaac573872af04dc5869385eb9bd5e3c73c42713814.txt",
+          "bytes": 1061,
+          "sha256": "f3c9fe731c701ed77fd5fbaac573872af04dc5869385eb9bd5e3c73c42713814"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#svgtypes@0.16.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "syn",
+      "version": "2.0.119",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#syn@2.0.119",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "syn",
+      "version": "3.0.3",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#syn@3.0.3",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "tempfile",
+      "version": "3.27.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/8b427f5bc501764575e52ba4f9d95673cf8f6d80a86d0d06599852e1a9a20a36.txt",
+          "bytes": 1056,
+          "sha256": "8b427f5bc501764575e52ba4f9d95673cf8f6d80a86d0d06599852e1a9a20a36"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#tempfile@3.27.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "termios",
+      "version": "0.2.2",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/871afd9d691846de71e0b83812ba9c7ff00bc7b3ad102dedcaa109f2246d52ad.txt",
+          "bytes": 1059,
+          "sha256": "871afd9d691846de71e0b83812ba9c7ff00bc7b3ad102dedcaa109f2246d52ad"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#termios@0.2.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin"
+      ]
+    },
+    {
+      "name": "thiserror-impl",
+      "version": "1.0.69",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#thiserror-impl@1.0.69",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "thiserror",
+      "version": "1.0.69",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#thiserror@1.0.69",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "tiny-skia-path",
+      "version": "0.12.0",
+      "license": "BSD-3-Clause",
+      "files": [
+        {
+          "storedPath": "notices/6d41e05f1d54fe726997cb0334ec539f1dff50600b1d5d90462ec2b392770ced.txt",
+          "bytes": 1564,
+          "sha256": "6d41e05f1d54fe726997cb0334ec539f1dff50600b1d5d90462ec2b392770ced"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#tiny-skia-path@0.12.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "tiny-skia",
+      "version": "0.12.0",
+      "license": "BSD-3-Clause",
+      "files": [
+        {
+          "storedPath": "notices/6d41e05f1d54fe726997cb0334ec539f1dff50600b1d5d90462ec2b392770ced.txt",
+          "bytes": 1564,
+          "sha256": "6d41e05f1d54fe726997cb0334ec539f1dff50600b1d5d90462ec2b392770ced"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#tiny-skia@0.12.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "tinyvec_macros",
+      "version": "0.1.1",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "files": [
+        {
+          "storedPath": "notices/4f44572785f35152c1fd2eadf565b7e079c0f300b4324f0af653419f9d76b735.txt",
+          "bytes": 11350,
+          "sha256": "4f44572785f35152c1fd2eadf565b7e079c0f300b4324f0af653419f9d76b735"
+        },
+        {
+          "storedPath": "notices/1dd8eca0f83669e75fa119e34fb9e1be9d16e3e9b6368962b8019db6e8ae5f7b.txt",
+          "bytes": 1062,
+          "sha256": "1dd8eca0f83669e75fa119e34fb9e1be9d16e3e9b6368962b8019db6e8ae5f7b"
+        },
+        {
+          "storedPath": "notices/41ace205715d9f19a3214218cc1c01d57c533e02cd0fef7c8e51a49a7fce5ac5.txt",
+          "bytes": 864,
+          "sha256": "41ace205715d9f19a3214218cc1c01d57c533e02cd0fef7c8e51a49a7fce5ac5"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#tinyvec_macros@0.1.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "tinyvec",
+      "version": "1.12.0",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "storedPath": "notices/fd80a26fbb3f644af1fa994134446702932968519797227e07a1368dea80f0bc.txt",
+          "bytes": 1023,
+          "sha256": "fd80a26fbb3f644af1fa994134446702932968519797227e07a1368dea80f0bc"
+        },
+        {
+          "storedPath": "notices/84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151.txt",
+          "bytes": 851,
+          "sha256": "84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#tinyvec@1.12.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "toml_datetime",
+      "version": "0.6.11",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#toml_datetime@0.6.11",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "toml_edit",
+      "version": "0.22.27",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#toml_edit@0.22.27",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "toml_write",
+      "version": "0.1.2",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#toml_write@0.1.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "toml",
+      "version": "0.8.23",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08.txt",
+          "bytes": 11358,
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "storedPath": "notices/6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6.txt",
+          "bytes": 1062,
+          "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#toml@0.8.23",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "unicode-bidi",
+      "version": "0.3.18",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/edb20b474f6cbd4f4db066b54a9e0f687d0009d309412a63431189b59b8e2a07.txt",
+          "bytes": 412,
+          "sha256": "edb20b474f6cbd4f4db066b54a9e0f687d0009d309412a63431189b59b8e2a07"
+        },
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0.txt",
+          "bytes": 1071,
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#unicode-bidi@0.3.18",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "unicode-ident",
+      "version": "1.0.24",
+      "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "storedPath": "notices/f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1.txt",
+          "bytes": 1995,
+          "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#unicode-ident@1.0.24",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "unicode-script",
+      "version": "0.5.8",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/7cbb56d1b5d83d735056b363ab20958524120afafc4ad8206e6be98cdec5d737.txt",
+          "bytes": 11049,
+          "sha256": "7cbb56d1b5d83d735056b363ab20958524120afafc4ad8206e6be98cdec5d737"
+        },
+        {
+          "storedPath": "notices/7ad3ea8ca3caf894db98c3f31d5d4949173ffa93c883ef19a9e529ad48960f8c.txt",
+          "bytes": 1101,
+          "sha256": "7ad3ea8ca3caf894db98c3f31d5d4949173ffa93c883ef19a9e529ad48960f8c"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#unicode-script@0.5.8",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "unicode-segmentation",
+      "version": "1.13.3",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d.txt",
+          "bytes": 321,
+          "sha256": "23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d"
+        },
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0.txt",
+          "bytes": 1071,
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#unicode-segmentation@1.13.3",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "unicode-truncate",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d.txt",
+          "bytes": 321,
+          "sha256": "23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d"
+        },
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/fa226a5c235dafc28fc9303b03f6bf5f7483c31d8355a031ebd6963ffeb65b95.txt",
+          "bytes": 1085,
+          "sha256": "fa226a5c235dafc28fc9303b03f6bf5f7483c31d8355a031ebd6963ffeb65b95"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#unicode-truncate@1.1.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "unicode-vo",
+      "version": "0.1.0",
+      "license": "MIT/Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/0b5f24524360e15bcf9fb79bca875f5aa62f01f94f2988e23238c7ec0e6e8784.txt",
+          "bytes": 1082,
+          "sha256": "0b5f24524360e15bcf9fb79bca875f5aa62f01f94f2988e23238c7ec0e6e8784"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#unicode-vo@0.1.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "unicode-width",
+      "version": "0.1.14",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d.txt",
+          "bytes": 321,
+          "sha256": "23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d"
+        },
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0.txt",
+          "bytes": 1071,
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#unicode-width@0.1.14",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "unicode-width",
+      "version": "0.2.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d.txt",
+          "bytes": 321,
+          "sha256": "23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d"
+        },
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0.txt",
+          "bytes": 1071,
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#unicode-width@0.2.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "usvg",
+      "version": "0.48.1",
+      "license": "Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9.txt",
+          "bytes": 10173,
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+        },
+        {
+          "storedPath": "notices/f5d934dc281b44e0003ee461ac740b18b6629a454decd872c774d34e4ee0b21d.txt",
+          "bytes": 1057,
+          "sha256": "f5d934dc281b44e0003ee461ac740b18b6629a454decd872c774d34e4ee0b21d"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#usvg@0.48.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "utf8parse",
+      "version": "0.2.2",
+      "license": "Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/e4c9b06fa850cb9b540a5e400e9f6394cf15efcf4098144de477d1d3dae10150.txt",
+          "bytes": 1052,
+          "sha256": "e4c9b06fa850cb9b540a5e400e9f6394cf15efcf4098144de477d1d3dae10150"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#utf8parse@0.2.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "vcpkg",
+      "version": "0.2.15",
+      "license": "MIT/Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/60c93a31f490375aadf64098b75f10715010379541021e00261045d7800611d3.txt",
+          "bytes": 11050,
+          "sha256": "60c93a31f490375aadf64098b75f10715010379541021e00261045d7800611d3"
+        },
+        {
+          "storedPath": "notices/016d20f335060a70e79d9fcf8dfaa6201114d65d592211f4bdfb8ae9ca2bc1dc.txt",
+          "bytes": 1082,
+          "sha256": "016d20f335060a70e79d9fcf8dfaa6201114d65d592211f4bdfb8ae9ca2bc1dc"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#vcpkg@0.2.15",
+      "metadataTargets": [
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "version_check",
+      "version": "0.9.5",
+      "license": "MIT/Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/b7e650f3fce5c53249d1cdc608b54df156a97edd636cf9d23498d0cfe7aec63e.txt",
+          "bytes": 1085,
+          "sha256": "b7e650f3fce5c53249d1cdc608b54df156a97edd636cf9d23498d0cfe7aec63e"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#version_check@0.9.5",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "vt100",
+      "version": "0.15.2",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/53a04b0a11073f3d0183c31a4b7bdf9a3f68d453adeec136e59e5a9d9a554370.txt",
+          "bytes": 1079,
+          "sha256": "53a04b0a11073f3d0183c31a4b7bdf9a3f68d453adeec136e59e5a9d9a554370"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#vt100@0.15.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "vte_generate_state_changes",
+      "version": "0.1.2",
+      "license": "Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/e4c9b06fa850cb9b540a5e400e9f6394cf15efcf4098144de477d1d3dae10150.txt",
+          "bytes": 1052,
+          "sha256": "e4c9b06fa850cb9b540a5e400e9f6394cf15efcf4098144de477d1d3dae10150"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#vte_generate_state_changes@0.1.2",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "vte",
+      "version": "0.11.1",
+      "license": "Apache-2.0 OR MIT",
+      "files": [
+        {
+          "storedPath": "notices/62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a.txt",
+          "bytes": 9723,
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "storedPath": "notices/e4c9b06fa850cb9b540a5e400e9f6394cf15efcf4098144de477d1d3dae10150.txt",
+          "bytes": 1052,
+          "sha256": "e4c9b06fa850cb9b540a5e400e9f6394cf15efcf4098144de477d1d3dae10150"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#vte@0.11.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "wasm-bindgen-backend",
+      "version": "0.2.100",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt",
+          "bytes": 1057,
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#wasm-bindgen-backend@0.2.100",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "wasm-bindgen-macro-support",
+      "version": "0.2.100",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt",
+          "bytes": 1057,
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#wasm-bindgen-macro-support@0.2.100",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "wasm-bindgen-macro",
+      "version": "0.2.100",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt",
+          "bytes": 1057,
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#wasm-bindgen-macro@0.2.100",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "wasm-bindgen-shared",
+      "version": "0.2.100",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt",
+          "bytes": 1057,
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#wasm-bindgen-shared@0.2.100",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "wasm-bindgen",
+      "version": "0.2.100",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397.txt",
+          "bytes": 1057,
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#wasm-bindgen@0.2.100",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "webp-animation",
+      "version": "0.10.0",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2.txt",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#webp-animation@0.10.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "weezl",
+      "version": "0.1.12",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/769f80b5bcb42ed0af4e4d2fd74e1ac9bf843cb80c5a29219d1ef3544428a6bb.txt",
+          "bytes": 10846,
+          "sha256": "769f80b5bcb42ed0af4e4d2fd74e1ac9bf843cb80c5a29219d1ef3544428a6bb"
+        },
+        {
+          "storedPath": "notices/573f5227db835cd30bbdd3aed3f82615f80119a4d5c82b4daf642dbfe2b6afde.txt",
+          "bytes": 1080,
+          "sha256": "573f5227db835cd30bbdd3aed3f82615f80119a4d5c82b4daf642dbfe2b6afde"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#weezl@0.1.12",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "winapi",
+      "version": "0.3.9",
+      "license": "MIT/Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1.txt",
+          "bytes": 11357,
+          "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+        },
+        {
+          "storedPath": "notices/ce7bc3499fee93d5022ef430d5e4201e79a6d9154f3974e42f41349f0569e09b.txt",
+          "bytes": 1073,
+          "sha256": "ce7bc3499fee93d5022ef430d5e4201e79a6d9154f3974e42f41349f0569e09b"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#winapi@0.3.9",
+      "metadataTargets": [
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "windows-link",
+      "version": "0.2.1",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b.txt",
+          "bytes": 11351,
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "storedPath": "notices/c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383.txt",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#windows-link@0.2.1",
+      "metadataTargets": [
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "windows-sys",
+      "version": "0.61.2",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "storedPath": "notices/c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b.txt",
+          "bytes": 11351,
+          "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+        },
+        {
+          "storedPath": "notices/c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383.txt",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#windows-sys@0.61.2",
+      "metadataTargets": [
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "winnow",
+      "version": "0.7.15",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/cb5aedb296c5246d1f22e9099f925a65146f9f0d6b4eebba97fd27a6cdbbab2d.txt",
+          "bytes": 1023,
+          "sha256": "cb5aedb296c5246d1f22e9099f925a65146f9f0d6b4eebba97fd27a6cdbbab2d"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#winnow@0.7.15",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "winreg",
+      "version": "0.10.1",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/ea021d8c6383c84d19c15ce90d3b1602cf448fdcc0bf3772c98e43c7bf1bf1d1.txt",
+          "bytes": 1055,
+          "sha256": "ea021d8c6383c84d19c15ce90d3b1602cf448fdcc0bf3772c98e43c7bf1bf1d1"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#winreg@0.10.1",
+      "metadataTargets": [
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "xmlwriter",
+      "version": "0.1.0",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/2cdce1ff4ca8f455ef169691ea493407e23c32ecdea5fd9b3a6fc82be5b49b5a.txt",
+          "bytes": 1082,
+          "sha256": "2cdce1ff4ca8f455ef169691ea493407e23c32ecdea5fd9b3a6fc82be5b49b5a"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#xmlwriter@0.1.0",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "zmij",
+      "version": "1.0.23",
+      "license": "MIT",
+      "files": [
+        {
+          "storedPath": "notices/23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3.txt",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#zmij@1.0.23",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "zune-core",
+      "version": "0.5.1",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "files": [
+        {
+          "storedPath": "notices/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "storedPath": "notices/d30047bca3b516639339a3c279bb84c3483124fb5a9dafe3c75056a85090e745.txt",
+          "bytes": 1073,
+          "sha256": "d30047bca3b516639339a3c279bb84c3483124fb5a9dafe3c75056a85090e745"
+        },
+        {
+          "storedPath": "notices/d201d14804d3bcd3b944147173175e4abfbd838b7c8069b6bd3452496bf13e6c.txt",
+          "bytes": 859,
+          "sha256": "d201d14804d3bcd3b944147173175e4abfbd838b7c8069b6bd3452496bf13e6c"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#zune-core@0.5.1",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "name": "zune-jpeg",
+      "version": "0.5.15",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "files": [
+        {
+          "storedPath": "notices/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "storedPath": "notices/d30047bca3b516639339a3c279bb84c3483124fb5a9dafe3c75056a85090e745.txt",
+          "bytes": 1073,
+          "sha256": "d30047bca3b516639339a3c279bb84c3483124fb5a9dafe3c75056a85090e745"
+        },
+        {
+          "storedPath": "notices/d201d14804d3bcd3b944147173175e4abfbd838b7c8069b6bd3452496bf13e6c.txt",
+          "bytes": 859,
+          "sha256": "d201d14804d3bcd3b944147173175e4abfbd838b7c8069b6bd3452496bf13e6c"
+        }
+      ],
+      "packageId": "registry+https://github.com/rust-lang/crates.io-index#zune-jpeg@0.5.15",
+      "metadataTargets": [
+        "aarch64-apple-darwin",
+        "x86_64-pc-windows-msvc"
+      ]
+    }
+  ],
+  "rustLibraryCopyright": {
+    "storedPath": "notices/78c163fcec50e64bfd85fedb850c273595602fafa2b41f30f75d4e410b80ee83.txt",
+    "bytes": 425651,
+    "sha256": "78c163fcec50e64bfd85fedb850c273595602fafa2b41f30f75d4e410b80ee83"
+  },
+  "resolvedIssues": [
+    {
+      "code": "NO_NOTICE_FILES",
+      "package": "serial",
+      "version": "0.4.0",
+      "resolution": {
+        "kind": "verified-upstream-repository-root-license",
+        "sourceURL": "https://github.com/dcuddeback/serial-rs/blob/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/LICENSE",
+        "exactCommit": "7ed6540c2789b7c7365cd7a89fcb7bac7c567de8",
+        "releaseTag": "v0.4.0",
+        "gitBlob": "19f28b12c2ba3f910c7872777604d3afa287bb33",
+        "sha256": "871afd9d691846de71e0b83812ba9c7ff00bc7b3ad102dedcaa109f2246d52ad",
+        "bytes": 1059,
+        "rationale": "The registry archive omitted this notice. The supplied evidence maps 6 distributed files to the exact upstream release commit using matching Git blobs. The repository-root notice is included without changing the registry cache.",
+        "registryArchive": {
+          "name": "serial-0.4.0.crate",
+          "sha256": "a1237a96570fc377c13baa1b88c7589ab66edced652e43ffb17088f003db3e86",
+          "lockfileChecksumMatched": true
+        },
+        "sourceCorrespondence": [
+          {
+            "cratePath": "Cargo.toml",
+            "repositoryPath": "serial/Cargo.toml",
+            "bytes": 743,
+            "sha256": "004b18acbd586d62ee32e3847d558f8993411ec37f332a6119bff2b669f4ff29",
+            "gitBlob": "db5856faf3a96a84445ddcca1b96debfc52404d1",
+            "upstreamGitBlob": "db5856faf3a96a84445ddcca1b96debfc52404d1",
+            "byteIdentityByGitBlob": true,
+            "sourceURL": "https://github.com/dcuddeback/serial-rs/blob/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/serial/Cargo.toml"
+          },
+          {
+            "cratePath": "README.md",
+            "repositoryPath": "serial/README.md",
+            "bytes": 2447,
+            "sha256": "40c5f9b91270c1ac368c3ce74c3e9910d6b335e877d5f25299099b81201923f9",
+            "gitBlob": "6a9567a365872699838cf4cae170211978b669c0",
+            "upstreamGitBlob": "6a9567a365872699838cf4cae170211978b669c0",
+            "byteIdentityByGitBlob": true,
+            "sourceURL": "https://github.com/dcuddeback/serial-rs/blob/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/serial/README.md"
+          },
+          {
+            "cratePath": "src/lib.rs",
+            "repositoryPath": "serial/src/lib.rs",
+            "bytes": 3402,
+            "sha256": "cc29084f5b75a4f44f8e78a62084a2f6c186acc4a64d0e6c61ea3e08195fb609",
+            "gitBlob": "07623dccb58d98db8b6348e80cc4f18602a3bdb0",
+            "upstreamGitBlob": "07623dccb58d98db8b6348e80cc4f18602a3bdb0",
+            "byteIdentityByGitBlob": true,
+            "sourceURL": "https://github.com/dcuddeback/serial-rs/blob/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/serial/src/lib.rs"
+          },
+          {
+            "cratePath": "examples/open_port.rs",
+            "repositoryPath": "serial/examples/open_port.rs",
+            "bytes": 360,
+            "sha256": "7751c805617ddeb1111c9aac24cdb68c95d6c2fbbb1fb8e319bffca483034810",
+            "gitBlob": "78f8f6c7177c19b7bf1314e481a6b481908855b2",
+            "upstreamGitBlob": "78f8f6c7177c19b7bf1314e481a6b481908855b2",
+            "byteIdentityByGitBlob": true,
+            "sourceURL": "https://github.com/dcuddeback/serial-rs/blob/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/serial/examples/open_port.rs"
+          },
+          {
+            "cratePath": "examples/probe_pins.rs",
+            "repositoryPath": "serial/examples/probe_pins.rs",
+            "bytes": 1398,
+            "sha256": "a1ec57ffba91dbde63a45450f77bdef2b8ca65263842f79f471ca6d64b3be34a",
+            "gitBlob": "0e974b50030a1445e03fa4592fc9f9643016a61f",
+            "upstreamGitBlob": "0e974b50030a1445e03fa4592fc9f9643016a61f",
+            "byteIdentityByGitBlob": true,
+            "sourceURL": "https://github.com/dcuddeback/serial-rs/blob/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/serial/examples/probe_pins.rs"
+          },
+          {
+            "cratePath": "examples/read_write.rs",
+            "repositoryPath": "serial/examples/read_write.rs",
+            "bytes": 898,
+            "sha256": "fc72f79c61ea306eee86023cea9b6d8cc4432daca3c1dc77d47b8a3e56936407",
+            "gitBlob": "4670611be215367e9f5dd389e111c3fe82fa6838",
+            "upstreamGitBlob": "4670611be215367e9f5dd389e111c3fe82fa6838",
+            "byteIdentityByGitBlob": true,
+            "sourceURL": "https://github.com/dcuddeback/serial-rs/blob/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/serial/examples/read_write.rs"
+          }
+        ]
+      }
+    }
+  ],
+  "distinctFiles": 140,
+  "copiedBytes": 816769
+}

@@ -1,0 +1,37 @@
+{
+  "repository": "https://github.com/Nuu-maan/ttysvg",
+  "sourceCommit": "b3d30f05a33c8fc90f0480e01d3c148ea11988cd",
+  "modifiedCandidate": true,
+  "candidatePatchSha256": "188e792107414c184979c4732005643199af6c6054b589a2014b523b89e3f012",
+  "upstreamLicenseSha256": "5451d1d34e403638f0f5cb3987417d9537ca530022e2dc9147000a40967eb7d1",
+  "binaries": {
+    "darwin-arm64": {
+      "file": "bin/ttysvg",
+      "bytes": 6342528,
+      "sha256": "351685d1b2d17253c25ae4b3a47dd7b4d654b45d2c8ec03cbed6944a9caa146c"
+    },
+    "win32-x64": {
+      "file": "bin/ttysvg.exe",
+      "bytes": 7815168,
+      "sha256": "c1eaa1fd43ef4ef791a2e2f6c935240d83b12ab07dd74953953dfa5d7f7488a5"
+    }
+  },
+  "wrapper": {
+    "version": "0.1.0-beta.1",
+    "cliSha256": "c53d92004b3cab17391e9be257b102a58576e324be1da5162cb6f95c91d32383",
+    "demoSha256": "4bb0dffa1da50b0258dd1c16e2f5645c895fedc417875fbd4d0680d7424a060b",
+    "licenseSha256": "771134e5837b508d6cc4f863977a1ff10b5861e83e0928d322ad109ec5f0a2ce"
+  },
+  "notices": {
+    "collectionComplete": true,
+    "inputIndexSha256": "bb9aed5b9c8437a0d1ae7ba453b147dc0576df936199e568cc9c570ec4f6788a",
+    "packagedIndexSha256": "d090dffaf5e76453bf5af692bdf5470d6baffd7e2834afc878c671b94ecf4b2f",
+    "distinctFiles": 140,
+    "packages": 185,
+    "contentPreserved": true,
+    "localSourcePathsOmitted": true,
+    "legalComplianceAssessed": false,
+    "binaryLinkageAssessed": false
+  },
+  "limit": "Assembly verifies pinned artifacts and collected notice bytes. It does not build binaries, attest reproducible linkage, perform legal review, or publish the package."
+}
