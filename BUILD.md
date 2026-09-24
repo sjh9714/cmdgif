@@ -10,7 +10,17 @@ node --test test/cli.test.mjs
 
 These use synthetic engine fixtures. They do not prove native recording. The separate [comparison lab](https://github.com/sjh9714/command-demo-lab) contains native Windows and Mac observations, failure cases, the actual consumer harness and its limits.
 
-The final 0.1.0-beta.1 npm tarball has SHA-256 `81f2fc95efde5bae57c9a7a02f9cb3b493b93dbc9a109985a503ee678e943cf6`. That identical file passed four fresh-consumer checks on macOS arm64 and [Windows Server 2022](https://github.com/sjh9714/command-demo-lab/actions/runs/36073797007): help, the bundled demo, command exit 0 and command exit 7. Each installed 151-file payload matched the tarball. Existing files remained unchanged; a reused output folder was refused without running the fixture. All three generated GIFs on each OS decoded completely. These are local-tarball maintainer checks, not npm registry downloads or independent-user results.
+The final 0.1.0-beta.1 npm tarball has SHA-256 `81f2fc95efde5bae57c9a7a02f9cb3b493b93dbc9a109985a503ee678e943cf6`. That identical file passed four fresh-consumer checks on macOS arm64 and [Windows Server 2022](https://github.com/sjh9714/command-demo-lab/actions/runs/36073797007): help, the bundled demo, command exit 0 and command exit 7. Each installed 151-file payload matched the tarball. Existing files remained unchanged; a reused output folder was refused without running the fixture. All three generated GIFs on each OS decoded completely. These are local-tarball maintainer checks, not independent-user results.
+
+## Public npm first run, September 25, 2026
+
+The public `cmdgif@0.1.0-beta.1` registry publication time is `2026-09-24T23:41:30.939Z`. A separate fresh macOS arm64 consumer with Node 24.19.0 ran `npx --yes cmdgif@beta --demo` from an empty cache. The selected version, registry URL, SHA-512 integrity and all 151 installed files matched the checked tarball. The `--yes` flag accepts npm's package prompt; it does not change the cmdgif command. Lifecycle scripts were disabled in the isolated npm configuration; cmdgif declares none. Existing project notes and source files remained unchanged.
+
+The same installed package, with npm offline, then recorded the actual command `node --test --test-reporter=spec test/cli.test.mjs` against unchanged copies of this repository's existing tests and launcher. All 13 tests passed. Both this GIF and the bundled-demo GIF decoded through all five frames and were visually checked. The test fixtures still simulate an engine: recording that test run does not turn those unit assertions into native acceptance tests.
+
+![Actual cmdgif recording of its Node test run on macOS](assets/test-run.gif)
+
+The [registry probe](https://github.com/sjh9714/command-demo-lab/blob/codex/windows-recorder-probe/registry-probe.mjs) records the exact setup and readback checks. This adds a Mac public-registry path, not a Windows registry run, retail Windows installation or independent-user study. The Windows evidence remains the exact same local tarball on the CI runner above.
 
 ## Native engine source
 
