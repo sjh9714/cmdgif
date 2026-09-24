@@ -1,0 +1,5 @@
+# Preserve the exact upstream notice and patch bytes across Windows checkouts.
+/third-party/notices/** -text
+/candidate.patch -text
+/LICENSE.ttysvg -text
+/assets/*.gif binary
