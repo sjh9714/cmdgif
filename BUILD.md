@@ -10,6 +10,8 @@ node --test test/cli.test.mjs
 
 These use synthetic engine fixtures. They do not prove native recording. The separate [comparison lab](https://github.com/sjh9714/command-demo-lab) contains native Windows and Mac observations, failure cases, the actual consumer harness and its limits.
 
+The final 0.1.0-beta.1 npm tarball has SHA-256 `81f2fc95efde5bae57c9a7a02f9cb3b493b93dbc9a109985a503ee678e943cf6`. That identical file passed four fresh-consumer checks on macOS arm64 and [Windows Server 2022](https://github.com/sjh9714/command-demo-lab/actions/runs/36073797007): help, the bundled demo, command exit 0 and command exit 7. Each installed 151-file payload matched the tarball. Existing files remained unchanged; a reused output folder was refused without running the fixture. All three generated GIFs on each OS decoded completely. These are local-tarball maintainer checks, not npm registry downloads or independent-user results.
+
 ## Native engine source
 
 The engine is Numan Khan's MIT-licensed [ttysvg](https://github.com/Nuu-maan/ttysvg), not an independent renderer. Use upstream commit `b3d30f05a33c8fc90f0480e01d3c148ea11988cd`, apply this repository's `candidate.patch` to a fresh checkout, then run `cargo build --locked --release --bin ttysvg` with Rust 1.96.1 and the platform's native compiler. The patch propagates the command's exit result after saving its recording.
