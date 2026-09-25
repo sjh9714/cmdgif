@@ -15,6 +15,21 @@ The actual Windows comparison is [run 36066962836](https://github.com/sjh9714/co
 
 Use ttysvg directly if you want its wizard, tapes, themes or broader export controls. Keep PowerSession + agg if that workflow already suits you. cmdgif's proposed advantage is a simpler first result for a Node user, not more features.
 
+## What gets simpler, and by how much?
+
+For a short command that exits by itself, these are the differences we can substantiate. This assumes the cmdgif user already has Node 24+ on a supported OS. Tool acquisition is separate from the number of recording/conversion calls; combining commands on one shell line does not change that count.
+
+| Requirement | cmdgif beta | Reviewed ttysvg source route | PowerSession 0.1.16 + agg 1.9.0 binary route |
+| --- | --- | --- | --- |
+| Recorder acquisition | One npm package with native assets included | One recorder built from source with Rust | Two prebuilt tools; no source build required |
+| Recorder/converter CLI invocations for one GIF, after acquisition | 1 | 1 | 2: record a cast, then convert it |
+| Separate converter | None | None | agg |
+| Result when our recorded test command exits 7 | 7, after saving the recording | 0, despite the command failing | PowerSession returned 0; agg still made the GIF |
+
+The two-call route produced valid GIFs in the comparison. PowerSession also [documents Winget and Scoop installation](https://github.com/Watfaq-legacy/PowerSession-rs/blob/v0.1.16/README.md), so manual binary download is not its only option; those package-manager routes were not executed here. ttysvg already records directly to GIF, so the one-call workflow is not a cmdgif invention. These distinctions come from the pinned source and executed cases above, not a new timing experiment or a user preference study.
+
+For an existing Node user, cmdgif removes a separate conversion call compared with the tested PowerSession + agg route, and avoids the Rust/source setup documented by ttysvg. It does not demonstrate a speed multiplier, a better renderer, or easier installation for someone who first needs to install Node 24. Users who already have either alternative configured may gain little.
+
 ## What would change our mind?
 
 An independent first-use test should ask a Windows CLI maker to produce the same short README GIF with their current method and cmdgif, without coaching them through hidden setup. Record the required preparation, where they get stuck, whether the result is usable, and which route they would use again. Node 24 itself may be an extra burden.
