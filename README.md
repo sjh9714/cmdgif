@@ -36,6 +36,12 @@ The folder must not already exist. cmdgif does not replace existing output files
 
 On Windows, shell syntax such as pipes and redirects needs an explicit shell. A simple batch file worked in our Windows test, but that does not establish every npm shim or quoting combination. General interactive sessions, long-running servers and Ctrl+C are not supported claims in this beta.
 
+## Example: a test run
+
+![Actual recording of cmdgif's Node test run on an Apple Silicon Mac](assets/test-run.gif)
+
+The published beta recorded this repository's Node launcher tests on an Apple Silicon Mac. The command completed with 13 passing tests. See the [exact command and setup](BUILD.md#public-npm-first-run-september-25-2026). This is a maintainer example, not an independent user result.
+
 ## Before sharing
 
 Check both files for secrets and personal information. cmdgif does not automatically redact them or sandbox the recorded command. The recorder does not upload recordings, but the command you run can access files and the network with your permissions.
