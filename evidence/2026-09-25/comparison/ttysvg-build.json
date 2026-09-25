@@ -1,0 +1,15 @@
+{
+  "source": "Nuu-maan/ttysvg",
+  "sourceCommit": "b3d30f05a33c8fc90f0480e01d3c148ea11988cd",
+  "cargoLockSha256": "e2769858af1ff66cb4ad2a61bacf87711c52099db0922cf6cbef3b17353b7f1f",
+  "candidatePatchSha256": "188e792107414c184979c4732005643199af6c6054b589a2014b523b89e3f012",
+  "upstreamBinarySha256": "4fe28ae498007a6758382fc1cd227d20ad9e1a27df6f2085e913d12e49098711",
+  "candidateBinarySha256": "951c15c29c57096a0e77d665254d5d32a11f4e5ecd6fcaf296d51d94c2f70275",
+  "originalBuildMs": 198567,
+  "candidateIncrementalBuildMs": 96217,
+  "osVersion": "Microsoft Windows NT 10.0.20348.0",
+  "imageVersion": "20260913.307.1",
+  "separateConsumerVm": false,
+  "officialPrebuiltRelease": false,
+  "scope": "maintainer builds; not consumer install time or a compiler-free Windows machine"
+}

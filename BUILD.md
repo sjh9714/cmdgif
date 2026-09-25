@@ -8,9 +8,9 @@ Run the launcher contract tests with Node 24 or newer:
 node --test test/cli.test.mjs
 ```
 
-These use synthetic engine fixtures. They do not prove native recording. The separate [comparison lab](https://github.com/sjh9714/command-demo-lab) contains native Windows and Mac observations, failure cases, the actual consumer harness and its limits.
+These use synthetic engine fixtures. They do not prove native recording. The [preserved validation evidence](evidence/2026-09-25/README.md) contains selected native Windows and Mac observations, failure cases, the original consumer harness and its limits. The original research lab is now private; preserving these records did not rerun the measurements.
 
-The final 0.1.0-beta.1 npm tarball has SHA-256 `81f2fc95efde5bae57c9a7a02f9cb3b493b93dbc9a109985a503ee678e943cf6`. That identical file passed four fresh-consumer checks on macOS arm64 and [Windows Server 2022](https://github.com/sjh9714/command-demo-lab/actions/runs/36073797007): help, the bundled demo, command exit 0 and command exit 7. Each installed 151-file payload matched the tarball. Existing files remained unchanged; a reused output folder was refused without running the fixture. All three generated GIFs on each OS decoded completely. These are local-tarball maintainer checks, not independent-user results.
+The final 0.1.0-beta.1 npm tarball has SHA-256 `81f2fc95efde5bae57c9a7a02f9cb3b493b93dbc9a109985a503ee678e943cf6`. That identical file passed four fresh-consumer checks on macOS arm64 and [Windows Server 2022](evidence/2026-09-25/README.md#windows-binary-and-final-local-tarball): help, the bundled demo, command exit 0 and command exit 7. Each installed 151-file payload matched the tarball. Existing files remained unchanged; a reused output folder was refused without running the fixture. All three generated GIFs on each OS decoded completely. These are local-tarball maintainer checks, not independent-user results.
 
 ## Public npm first run, September 25, 2026
 
@@ -20,9 +20,9 @@ The same installed package, with npm offline, then recorded the actual command `
 
 ![Actual cmdgif recording of its Node test run on macOS](assets/test-run.gif)
 
-The [registry probe](https://github.com/sjh9714/command-demo-lab/blob/codex/windows-recorder-probe/registry-probe.mjs) records the exact setup and readback checks.
+The [preserved registry probe](evidence/2026-09-25/harness/registry-probe.mjs) records the exact setup and readback checks. Its helper, original launcher snapshot, reports and hashes are linked from the [evidence index](evidence/2026-09-25/README.md#public-npm-first-run).
 
-A separate [Windows public-registry run](https://github.com/sjh9714/command-demo-lab/actions/runs/36077148811) at `2026-09-25T00:21:45Z` used Windows Server 2022 build 20348, Node 24.19.0 and npm 11.17.0. One fresh-cache `npx --yes cmdgif@beta --demo` selected 0.1.0-beta.1, with the same registry archive, integrity and all 151 installed file hashes. The same installation then recorded the existing test command with npm offline: 12 passed, none failed, and the existing POSIX symlink-entry test skipped Windows. Both commands exited normally with code 0, and project notes and source bytes remained unchanged. The demo's five frames and test recording's six frames decoded; their final images were visually checked.
+A separate [Windows public-registry run](evidence/2026-09-25/README.md#public-npm-first-run) at `2026-09-25T00:21:45Z` used Windows Server 2022 build 20348, Node 24.19.0 and npm 11.17.0. One fresh-cache `npx --yes cmdgif@beta --demo` selected 0.1.0-beta.1, with the same registry archive, integrity and all 151 installed file hashes. The same installation then recorded the existing test command with npm offline: 12 passed, none failed, and the existing POSIX symlink-entry test skipped Windows. Both commands exited normally with code 0, and project notes and source bytes remained unchanged. The demo's five frames and test recording's six frames decoded; their final images were visually checked.
 
 These public-registry checks invoke npm's `npx-cli.js` and its package command entry, with isolated cache/configuration and lifecycle scripts disabled. They do not establish the interactive PowerShell `npx.ps1` wrapper, retail Windows GUI setup, whole-process-tree cleanup, or independent-user success. The Windows workflow's 11 returned evidence files were length/hash checked after retrieval. No product code, native binary or npm version changed for this additional check.
 
@@ -32,7 +32,7 @@ The engine is Numan Khan's MIT-licensed [ttysvg](https://github.com/Nuu-maan/tty
 
 Expected upstream Cargo.lock SHA-256: `e2769858af1ff66cb4ad2a61bacf87711c52099db0922cf6cbef3b17353b7f1f`.
 
-The Windows x64 asset was built and exercised in [run 36072313428](https://github.com/sjh9714/command-demo-lab/actions/runs/36072313428), source `c2d7389bb6491775073864d12892a814ddd70e36`. The Apple Silicon asset was built from the same locked, patched source with Rust 1.96.1; `--remap-path-prefix` replaced the builder's local home path with `/build`. `UPSTREAM.json` records the exact distributed binary hashes. A rebuild need not be byte-identical across machines.
+The Windows x64 asset was built and exercised in run `36072313428`, source `c2d7389bb6491775073864d12892a814ddd70e36`; its [build report is preserved here](evidence/2026-09-25/windows-build.json). The Apple Silicon asset was built from the same locked, patched source with Rust 1.96.1; `--remap-path-prefix` replaced the builder's local home path with `/build`. `UPSTREAM.json` records the exact distributed binary hashes. A rebuild need not be byte-identical across machines.
 
 The resulting native files belong at `bin/ttysvg.exe` on Windows and `bin/ttysvg` on macOS. They are included in npm but excluded from Git. Do not package a source checkout with missing native assets or reuse `UPSTREAM.json` for different binaries.
 

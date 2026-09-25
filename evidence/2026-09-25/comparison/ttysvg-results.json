@@ -1,0 +1,453 @@
+{
+  "kind": "actual_cli_observation_of_synthetic_fixture",
+  "checkedAt": "2026-09-24T22:26:52.508Z",
+  "platform": "win32",
+  "arch": "x64",
+  "osRelease": "10.0.20348",
+  "node": "v24.19.0",
+  "provenance": {
+    "upstreamRepository": "Nuu-maan/ttysvg",
+    "upstreamCommit": "b3d30f05a33c8fc90f0480e01d3c148ea11988cd",
+    "candidatePatchSha256": "188e792107414c184979c4732005643199af6c6054b589a2014b523b89e3f012",
+    "binaries": {
+      "upstream": {
+        "name": "upstream.exe",
+        "bytes": 7824384,
+        "sha256": "4fe28ae498007a6758382fc1cd227d20ad9e1a27df6f2085e913d12e49098711"
+      },
+      "candidate": {
+        "name": "candidate.exe",
+        "bytes": 7815168,
+        "sha256": "951c15c29c57096a0e77d665254d5d32a11f4e5ecd6fcaf296d51d94c2f70275"
+      }
+    },
+    "sourceToBinaryMappingVerifiedByHarness": false
+  },
+  "fixture": {
+    "file": "baseline-fixture.mjs",
+    "sha256": "005ab9e64ff368a3e369408e8a45dfe06557a7406f91b8c734a4a60f15c42a3a",
+    "includesPidReceipt": true,
+    "historicalExit7FixtureIsDifferent": true,
+    "cases": [
+      0,
+      7
+    ]
+  },
+  "policy": {
+    "perCaseTimeoutMs": 45000,
+    "totalTimeoutMs": 210000,
+    "childEnvAllowlisted": true,
+    "isolatedChildHome": true,
+    "userConfigMutationRequested": false,
+    "privateCredentialsForwarded": false,
+    "shellWrapping": false,
+    "packageInstallation": false,
+    "networkIsolationEnforcedByOS": false
+  },
+  "independentUserTest": false,
+  "desktopScreenCapture": false,
+  "observations": [
+    {
+      "label": "upstream",
+      "expectedCommandExit": 0,
+      "exit": 0,
+      "signal": null,
+      "spawnError": null,
+      "completionObserved": true,
+      "timedOut": false,
+      "stoppedReason": null,
+      "elapsedMs": 3237,
+      "caseTimeoutMs": 45000,
+      "stdout": {
+        "bytes": 161,
+        "sha256": "18abd609fe5cd7cc93ed92f605bb619fea6b02cf3208cc47680e82a70169bc15"
+      },
+      "stderr": {
+        "bytes": 788,
+        "sha256": "dfb4f3dd6e04c457124e3e706f04bf8a3468231c018dd39b9a6b0593b262ff11"
+      },
+      "fixtureSha256": "005ab9e64ff368a3e369408e8a45dfe06557a7406f91b8c734a4a60f15c42a3a",
+      "fixtureUnchanged": true,
+      "binaryUnchanged": true,
+      "cleanup": {
+        "receiptVerified": true,
+        "recorderGone": true,
+        "fixtureGone": true,
+        "actions": [],
+        "scope": "spawned recorder tree and token/parent/command-verified no-child fixture only"
+      },
+      "artifacts": {
+        "gif": {
+          "exists": true,
+          "bytes": 9693,
+          "sha256": "82b7dd66068a78a1b8dde208d3f9cb3f5c254e9d122bb499ad7b9c571cc528c0",
+          "header": "GIF89a",
+          "width": 708,
+          "height": 332,
+          "trailerPresent": true,
+          "pixelDecoded": false,
+          "visualContentVerified": false
+        },
+        "svg": {
+          "exists": true,
+          "bytes": 2914,
+          "sha256": "ac31b05ad1b39013aa2fa4c8d09872ed09f63207f015084e43e0f982cf4d63d9",
+          "envelopePresent": true
+        },
+        "text": {
+          "exists": true,
+          "bytes": 77,
+          "sha256": "fe49bf24f3e2e63c094c5741e147930be3bd01061b1c389739d21b6ebeaf04ea",
+          "markers": {
+            "BASELINE_START": true,
+            "한국어 테스트": true,
+            "Unicode café": true,
+            "BASELINE_END exit=0": true
+          }
+        },
+        "capture": {
+          "exists": true,
+          "bytes": 1505,
+          "sha256": "ce4ddc8fb303a0cb769dd2dcc2241df300ddb4eb5f24e2419cb0ccbd73b71480",
+          "jsonParsed": true,
+          "format": 1,
+          "frames": 4,
+          "lastMarkers": {
+            "BASELINE_START": true,
+            "한국어 테스트": true,
+            "Unicode café": true,
+            "BASELINE_END exit=0": true
+          }
+        }
+      },
+      "gate": {
+        "checks": {
+          "started": true,
+          "boundedCompletion": true,
+          "expectedStatus": true,
+          "fixtureUnchanged": true,
+          "binaryUnchanged": true,
+          "fixtureStarted": true,
+          "recorderGone": true,
+          "fixtureGone": true,
+          "gifEnvelope": true,
+          "svgEnvelope": true,
+          "lastText": true,
+          "savedLastText": true
+        },
+        "passed": true,
+        "excludes": [
+          "GIF pixel decoding",
+          "visual glyph correctness",
+          "interactive Ctrl-C",
+          "reader EOF guarantee",
+          "independent users"
+        ]
+      }
+    },
+    {
+      "label": "upstream",
+      "expectedCommandExit": 7,
+      "exit": 0,
+      "signal": null,
+      "spawnError": null,
+      "completionObserved": true,
+      "timedOut": false,
+      "stoppedReason": null,
+      "elapsedMs": 1372,
+      "caseTimeoutMs": 45000,
+      "stdout": {
+        "bytes": 161,
+        "sha256": "61d015d367b2e4af66192b39a6797093532ae734c8f7b85f8ac90169f2bcba4a"
+      },
+      "stderr": {
+        "bytes": 788,
+        "sha256": "3fefc6ed001f29a0de0770aff99501064605362626013e5dd152ae9d20411df8"
+      },
+      "fixtureSha256": "005ab9e64ff368a3e369408e8a45dfe06557a7406f91b8c734a4a60f15c42a3a",
+      "fixtureUnchanged": true,
+      "binaryUnchanged": true,
+      "cleanup": {
+        "receiptVerified": true,
+        "recorderGone": true,
+        "fixtureGone": true,
+        "actions": [],
+        "scope": "spawned recorder tree and token/parent/command-verified no-child fixture only"
+      },
+      "artifacts": {
+        "gif": {
+          "exists": true,
+          "bytes": 9652,
+          "sha256": "b5f3ffbaa86aa4cd2318844889c22fa0d9f5a159c59634024369b69abfbccf45",
+          "header": "GIF89a",
+          "width": 708,
+          "height": 332,
+          "trailerPresent": true,
+          "pixelDecoded": false,
+          "visualContentVerified": false
+        },
+        "svg": {
+          "exists": true,
+          "bytes": 2914,
+          "sha256": "ee50fd2b44872c38b1b1cfb1eeefc79c87997e7ea3387adfdd63d520573fb0bf",
+          "envelopePresent": true
+        },
+        "text": {
+          "exists": true,
+          "bytes": 77,
+          "sha256": "edbd5a086da6f7812ca4f400ae4bc566fab8bc77e398ac94870bf7896f9f658c",
+          "markers": {
+            "BASELINE_START": true,
+            "한국어 테스트": true,
+            "Unicode café": true,
+            "BASELINE_END exit=7": true
+          }
+        },
+        "capture": {
+          "exists": true,
+          "bytes": 1505,
+          "sha256": "efbbf930bc17dce636eeb576eb0fe20b0a22102d489fd317a6195301afa62acc",
+          "jsonParsed": true,
+          "format": 1,
+          "frames": 4,
+          "lastMarkers": {
+            "BASELINE_START": true,
+            "한국어 테스트": true,
+            "Unicode café": true,
+            "BASELINE_END exit=7": true
+          }
+        }
+      },
+      "gate": {
+        "checks": {
+          "started": true,
+          "boundedCompletion": true,
+          "expectedStatus": false,
+          "fixtureUnchanged": true,
+          "binaryUnchanged": true,
+          "fixtureStarted": true,
+          "recorderGone": true,
+          "fixtureGone": true,
+          "gifEnvelope": true,
+          "svgEnvelope": true,
+          "lastText": true,
+          "savedLastText": true
+        },
+        "passed": false,
+        "excludes": [
+          "GIF pixel decoding",
+          "visual glyph correctness",
+          "interactive Ctrl-C",
+          "reader EOF guarantee",
+          "independent users"
+        ]
+      }
+    },
+    {
+      "label": "candidate",
+      "expectedCommandExit": 0,
+      "exit": 0,
+      "signal": null,
+      "spawnError": null,
+      "completionObserved": true,
+      "timedOut": false,
+      "stoppedReason": null,
+      "elapsedMs": 1383,
+      "caseTimeoutMs": 45000,
+      "stdout": {
+        "bytes": 161,
+        "sha256": "18abd609fe5cd7cc93ed92f605bb619fea6b02cf3208cc47680e82a70169bc15"
+      },
+      "stderr": {
+        "bytes": 793,
+        "sha256": "89f1d70ffbafc887b1399203535058865f238f8e89b88cdf31675ea24f85398a"
+      },
+      "fixtureSha256": "005ab9e64ff368a3e369408e8a45dfe06557a7406f91b8c734a4a60f15c42a3a",
+      "fixtureUnchanged": true,
+      "binaryUnchanged": true,
+      "cleanup": {
+        "receiptVerified": true,
+        "recorderGone": true,
+        "fixtureGone": true,
+        "actions": [],
+        "scope": "spawned recorder tree and token/parent/command-verified no-child fixture only"
+      },
+      "artifacts": {
+        "gif": {
+          "exists": true,
+          "bytes": 9693,
+          "sha256": "89ba19c525df3d4f3f4f6603ec9bf64aaf322b0dc294726c435aae9139350803",
+          "header": "GIF89a",
+          "width": 708,
+          "height": 332,
+          "trailerPresent": true,
+          "pixelDecoded": false,
+          "visualContentVerified": false
+        },
+        "svg": {
+          "exists": true,
+          "bytes": 2914,
+          "sha256": "a388e05f803c05624fb4d793713c890225edf3415488c7eb69cd850b784adccc",
+          "envelopePresent": true
+        },
+        "text": {
+          "exists": true,
+          "bytes": 77,
+          "sha256": "fe49bf24f3e2e63c094c5741e147930be3bd01061b1c389739d21b6ebeaf04ea",
+          "markers": {
+            "BASELINE_START": true,
+            "한국어 테스트": true,
+            "Unicode café": true,
+            "BASELINE_END exit=0": true
+          }
+        },
+        "capture": {
+          "exists": true,
+          "bytes": 1506,
+          "sha256": "166ba1db56650f0377682db9a767e2477ec1e5f06bc96daf210cc349844ec9e0",
+          "jsonParsed": true,
+          "format": 1,
+          "frames": 4,
+          "lastMarkers": {
+            "BASELINE_START": true,
+            "한국어 테스트": true,
+            "Unicode café": true,
+            "BASELINE_END exit=0": true
+          }
+        }
+      },
+      "gate": {
+        "checks": {
+          "started": true,
+          "boundedCompletion": true,
+          "expectedStatus": true,
+          "fixtureUnchanged": true,
+          "binaryUnchanged": true,
+          "fixtureStarted": true,
+          "recorderGone": true,
+          "fixtureGone": true,
+          "gifEnvelope": true,
+          "svgEnvelope": true,
+          "lastText": true,
+          "savedLastText": true
+        },
+        "passed": true,
+        "excludes": [
+          "GIF pixel decoding",
+          "visual glyph correctness",
+          "interactive Ctrl-C",
+          "reader EOF guarantee",
+          "independent users"
+        ]
+      }
+    },
+    {
+      "label": "candidate",
+      "expectedCommandExit": 7,
+      "exit": 7,
+      "signal": null,
+      "spawnError": null,
+      "completionObserved": true,
+      "timedOut": false,
+      "stoppedReason": null,
+      "elapsedMs": 1362,
+      "caseTimeoutMs": 45000,
+      "stdout": {
+        "bytes": 161,
+        "sha256": "61d015d367b2e4af66192b39a6797093532ae734c8f7b85f8ac90169f2bcba4a"
+      },
+      "stderr": {
+        "bytes": 837,
+        "sha256": "651ccd3150f08715af6cab96457b848330bf82da9cf5f0ef7c4954332662e57d"
+      },
+      "fixtureSha256": "005ab9e64ff368a3e369408e8a45dfe06557a7406f91b8c734a4a60f15c42a3a",
+      "fixtureUnchanged": true,
+      "binaryUnchanged": true,
+      "cleanup": {
+        "receiptVerified": true,
+        "recorderGone": true,
+        "fixtureGone": true,
+        "actions": [],
+        "scope": "spawned recorder tree and token/parent/command-verified no-child fixture only"
+      },
+      "artifacts": {
+        "gif": {
+          "exists": true,
+          "bytes": 9652,
+          "sha256": "27cd1110636e28a358f05ab957ec4b3432f2e16fd3ff8b4c895ea0dda5631119",
+          "header": "GIF89a",
+          "width": 708,
+          "height": 332,
+          "trailerPresent": true,
+          "pixelDecoded": false,
+          "visualContentVerified": false
+        },
+        "svg": {
+          "exists": true,
+          "bytes": 2914,
+          "sha256": "7a4ea47ed3247b18cd94bb153b716c93913ed69c6745f9e95c29ff0182f58389",
+          "envelopePresent": true
+        },
+        "text": {
+          "exists": true,
+          "bytes": 77,
+          "sha256": "edbd5a086da6f7812ca4f400ae4bc566fab8bc77e398ac94870bf7896f9f658c",
+          "markers": {
+            "BASELINE_START": true,
+            "한국어 테스트": true,
+            "Unicode café": true,
+            "BASELINE_END exit=7": true
+          }
+        },
+        "capture": {
+          "exists": true,
+          "bytes": 1506,
+          "sha256": "01610a8ea0650907bf2402bcccb2d5f29df2cd2b1018b1fbed7d06686a5227cc",
+          "jsonParsed": true,
+          "format": 1,
+          "frames": 4,
+          "lastMarkers": {
+            "BASELINE_START": true,
+            "한국어 테스트": true,
+            "Unicode café": true,
+            "BASELINE_END exit=7": true
+          }
+        }
+      },
+      "gate": {
+        "checks": {
+          "started": true,
+          "boundedCompletion": true,
+          "expectedStatus": true,
+          "fixtureUnchanged": true,
+          "binaryUnchanged": true,
+          "fixtureStarted": true,
+          "recorderGone": true,
+          "fixtureGone": true,
+          "gifEnvelope": true,
+          "svgEnvelope": true,
+          "lastText": true,
+          "savedLastText": true
+        },
+        "passed": true,
+        "excludes": [
+          "GIF pixel decoding",
+          "visual glyph correctness",
+          "interactive Ctrl-C",
+          "reader EOF guarantee",
+          "independent users"
+        ]
+      }
+    }
+  ],
+  "temporaryHomesRemoved": true,
+  "fixtureUnchanged": true,
+  "patchUnchanged": true,
+  "elapsedMs": 7441,
+  "cancelled": false,
+  "candidateGate": {
+    "passed": true,
+    "rows": 2,
+    "pixelDecodeRequiredSeparately": true
+  }
+}

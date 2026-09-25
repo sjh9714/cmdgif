@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "preservedAt": "2026-09-25",
+  "purpose": "Selected historical validation evidence retained publicly before the research repository became private. No recording or installation was rerun for this migration.",
+  "originalRepository": "sjh9714/command-demo-lab",
+  "harnessSourceCommit": "2a4e997adf6c83b19da7a5f97c1907c255e4390c",
+  "originalActionsRuns": [
+    {
+      "id": 36066962836,
+      "kind": "Windows comparison",
+      "head": "09f4226bdae4473cf562275c84151351429bf6c9",
+      "conclusion": "failure",
+      "note": "Termless produced no GIF; other paths passed their stated gates."
+    },
+    {
+      "id": 36072313428,
+      "kind": "Windows beta binary",
+      "head": "c2d7389bb6491775073864d12892a814ddd70e36",
+      "conclusion": "success"
+    },
+    {
+      "id": 36073797007,
+      "kind": "Final local tarball",
+      "head": "85ec1d11c10c4ed3c2a8eeedcc0c7e7fa55eb4be",
+      "conclusion": "success"
+    },
+    {
+      "id": 36077148811,
+      "kind": "Windows public registry",
+      "head": "2a4e997adf6c83b19da7a5f97c1907c255e4390c",
+      "conclusion": "success"
+    }
+  ],
+  "files": [
+    {
+      "file": "comparison/ttysvg-results.json",
+      "source": "windows-36066962836-recorder/recorder/captures/results.json",
+      "sourceBytes": 13687,
+      "sourceSha256": "fa69a74010cc3222425f401d33f8c98e73e8390ddff158d418b2e0d9899b0636",
+      "storedBytes": 13687,
+      "storedSha256": "fa69a74010cc3222425f401d33f8c98e73e8390ddff158d418b2e0d9899b0636",
+      "transformations": []
+    },
+    {
+      "file": "comparison/ttysvg-build.json",
+      "source": "windows-36066962836-recorder/recorder/build.json",
+      "sourceBytes": 801,
+      "sourceSha256": "62b377f1e0033746808ec6f4944ebde5c020e37a7579e6a6caed7af945056ead",
+      "storedBytes": 786,
+      "storedSha256": "49355bdb4804ea1f4fdc471f690963df78f806eb67a7df577eee643b41d780b2",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "comparison/upstream-exit-0-decode.json",
+      "source": "windows-36066962836-recorder/recorder/captures/upstream-exit-0/actual-decode.json",
+      "sourceBytes": 610,
+      "sourceSha256": "4ad58f82eb8332dbe4b19219a64f96bc4b46f3105639771f8ba912135298144d",
+      "storedBytes": 585,
+      "storedSha256": "edd7b7a8e1a990504f88e705e62ab7ce978025698599f4b7640d844d546f6960",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "comparison/upstream-exit-7-decode.json",
+      "source": "windows-36066962836-recorder/recorder/captures/upstream-exit-7/actual-decode.json",
+      "sourceBytes": 610,
+      "sourceSha256": "9aa49407fe2b0c5f467054f917a74aeb9033aad6b6745ea72bb005875e09e09e",
+      "storedBytes": 585,
+      "storedSha256": "6079931b29fffcfeb374ecf4c7914737922c86cf8f7f2c89d61e337500757b43",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "comparison/candidate-exit-0-decode.json",
+      "source": "windows-36066962836-recorder/recorder/captures/candidate-exit-0/actual-decode.json",
+      "sourceBytes": 610,
+      "sourceSha256": "2b8dc0b261615b0126ce88a7349b49656e14cc7a2256443bc6a1ca5500d1e25a",
+      "storedBytes": 585,
+      "storedSha256": "8851b35ae139baee806ae478cdfbbb95d3e8bc7c7e885a28fcdfc3a9cb2f5c34",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "comparison/candidate-exit-7-decode.json",
+      "source": "windows-36066962836-recorder/recorder/captures/candidate-exit-7/actual-decode.json",
+      "sourceBytes": 610,
+      "sourceSha256": "de5a6dc036a482124c0bda8e12a883987965793f8865d20e9d05d706309f7377",
+      "storedBytes": 585,
+      "storedSha256": "bfb23fdfb0c77ce21593de1905475396daf22afb6b6c353135b579afd0caeb50",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "comparison/powersession-results.json",
+      "source": "windows-36066962836-powersession/powersession/powersession-report.json",
+      "sourceBytes": 5736,
+      "sourceSha256": "6762c7075dafdda87a06de136a712b61b162f91f6bfb89c322b85ac1fefbc5a0",
+      "storedBytes": 5568,
+      "storedSha256": "62d24bc6e768ef7fd8c4d3f744ee82fefe0258fee821fc91a0518277eb07a85a",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "comparison/powersession-gate.json",
+      "source": "windows-36066962836-powersession/powersession/mechanics-gate.json",
+      "sourceBytes": 899,
+      "sourceSha256": "45b7c4feba49deaa00c2213beeaaadad1456b5b448bf49d0e38546d6a3cdeed9",
+      "storedBytes": 899,
+      "storedSha256": "45b7c4feba49deaa00c2213beeaaadad1456b5b448bf49d0e38546d6a3cdeed9",
+      "transformations": []
+    },
+    {
+      "file": "comparison/powersession-exit0-decode.json",
+      "source": "windows-36066962836-powersession/powersession/exit0-decode.json",
+      "sourceBytes": 610,
+      "sourceSha256": "de82a26c0054e19d70c6f2da2a6399707b3b56a5c7709c37e413d4cdcd77efa8",
+      "storedBytes": 585,
+      "storedSha256": "0e73a35c9c0dc3ab658a30e8286166e20c6700c4bebfc3427fc4e7abe4d79649",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "comparison/powersession-exit7-decode.json",
+      "source": "windows-36066962836-powersession/powersession/exit7-decode.json",
+      "sourceBytes": 610,
+      "sourceSha256": "6b1bcba15df19912c71e039c0ef08d87f7815b91f12b097bc738608d1f78f2fb",
+      "storedBytes": 585,
+      "storedSha256": "af7ba008b685ecca32b1cf2ffa9a6085662c7387bed1aa6bccee9a0c795c0053",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "comparison/termless-results.json",
+      "source": "windows-36066962836-termless/termless/results.json",
+      "sourceBytes": 4605,
+      "sourceSha256": "4526e9f0ae631dcde4714c07903a7306a4d6c96cba78b97fecf338c89fd69424",
+      "storedBytes": 4606,
+      "storedSha256": "1c7e902a019001915fe4cc6295969224222b777a79351b0d0e4c5dc57f8d7421",
+      "transformations": [
+        "Final newline added"
+      ]
+    },
+    {
+      "file": "comparison/termless-npm-install.json",
+      "source": "windows-36066962836-termless/termless/install-report.json",
+      "sourceBytes": 881,
+      "sourceSha256": "533efd42cabdaa0d432452b16ed92782d1da4607988edd666de5341f748828c4",
+      "storedBytes": 882,
+      "storedSha256": "17eeff75824372a0511ec847ba5509ad1197139ee59011c1eac1a849a54cf28d",
+      "transformations": [
+        "Final newline added"
+      ]
+    },
+    {
+      "file": "comparison/termless-bun-install.json",
+      "source": "windows-36066962836-termless/termless/bun-install-report.json",
+      "sourceBytes": 2251,
+      "sourceSha256": "d3b1776330600ca3b5d3a53d2f9d95cf3f58d75eab8a92926fcaa9110cc2d14e",
+      "storedBytes": 2252,
+      "storedSha256": "e8c93b044e7f3c37fe2240adbc9dbb1b69921f1e6244ede952fa0cb5c84d205f",
+      "transformations": [
+        "Final newline added"
+      ]
+    },
+    {
+      "file": "comparison/termless-gate.json",
+      "source": "windows-36066962836-termless/termless/mechanics-gate.json",
+      "sourceBytes": 1449,
+      "sourceSha256": "4e0abefb39e4c555610ffcc7aca8ad7b6545aac3264464dcf2231340b207e721",
+      "storedBytes": 1449,
+      "storedSha256": "4e0abefb39e4c555610ffcc7aca8ad7b6545aac3264464dcf2231340b207e721",
+      "transformations": []
+    },
+    {
+      "file": "comparison/termless-import.stderr.log",
+      "source": "windows-36066962836-termless/termless/node-exit0-9878f686-1bdb-4b1b-90f5-c69f732c4a2b.stderr.log",
+      "sourceBytes": 795,
+      "sourceSha256": "162d59b34706ff1aa7e38d49bb78835cdc0c6b8e949eccbfaf27ee3df1824b0e",
+      "storedBytes": 784,
+      "storedSha256": "5b1acd2b312ae1e5898510d16b1f2bb6499192bcb16829615a20d4cbe27673c7",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "windows-package/results.json",
+      "source": "windows-final-package/distribution/results.json",
+      "sourceBytes": 89815,
+      "sourceSha256": "12d8c4fb72269228ec44e20a69ed31d653a4c2b28b4ffc40da63756aadc59a64",
+      "storedBytes": 89815,
+      "storedSha256": "12d8c4fb72269228ec44e20a69ed31d653a4c2b28b4ffc40da63756aadc59a64",
+      "transformations": []
+    },
+    {
+      "file": "windows-package/exit0-decode.json",
+      "source": "windows-final-package/distribution/exit0-decode.json",
+      "sourceBytes": 610,
+      "sourceSha256": "129aca3d0a96a84e16f4f2f00d6aa90c34801bb20cf635c36a1f1779bfc04760",
+      "storedBytes": 585,
+      "storedSha256": "45da185b52ef0ead2b13d780bdfaf1dccc3594f6086076a428a1b5703092e487",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "windows-package/exit7-decode.json",
+      "source": "windows-final-package/distribution/exit7-decode.json",
+      "sourceBytes": 610,
+      "sourceSha256": "5cbdde24ef5a35f749bdd8328642d0ff6bfb228bb48ded998bd9d94840443d61",
+      "storedBytes": 585,
+      "storedSha256": "bf9a322a00e0f3ff7a6b208de71bf6f2a73d5630547668d7612229838005d795",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "windows-package/demo-decode.json",
+      "source": "windows-final-package/distribution/demo-decode.json",
+      "sourceBytes": 691,
+      "sourceSha256": "95b225e25c7c40ea40f09a976644b7fe06f1794ea22915f219d442fdc6451030",
+      "storedBytes": 664,
+      "storedSha256": "7f68a619f555dd6b87f39e415f8fd56976f45217d8f3d4a5e5aadcbe2d3dc83e",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "windows-build.json",
+      "source": "beta-assets-VEOBge/build-win32-x64.json",
+      "sourceBytes": 1108,
+      "sourceSha256": "48e2983247a22ec0ca6e5249d1c857e3addb696f68b2d129a84bb5228136ae9f",
+      "storedBytes": 1086,
+      "storedSha256": "b9d49e5717c287890be029f55609143f4a0c981863c8c4336e20d2729585c9bd",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "windows-registry/results.json",
+      "source": "registry-first-windows/distribution/results.json",
+      "sourceBytes": 4571,
+      "sourceSha256": "24b10835b7f99507b7a3b647666a630d44cb8ebad06aa9c19624d2275ba1713f",
+      "storedBytes": 4571,
+      "storedSha256": "24b10835b7f99507b7a3b647666a630d44cb8ebad06aa9c19624d2275ba1713f",
+      "transformations": []
+    },
+    {
+      "file": "windows-registry/demo-decode.json",
+      "source": "registry-first-windows/distribution/demo-decode.json",
+      "sourceBytes": 691,
+      "sourceSha256": "009d24b47c28d8f9967db780439b6bdc9480ed4e2b98dca41335120d6cb924ce",
+      "storedBytes": 664,
+      "storedSha256": "9e110727075d97c956684aa497f056ec82362feca86953a0f808d640dd82b654",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "windows-registry/test-run-decode.json",
+      "source": "registry-first-windows/distribution/test-run-decode.json",
+      "sourceBytes": 776,
+      "sourceSha256": "26d8e3027b8ea58cd04b849e0341c3019b15204a35aa8b0e8fd14867b059ffcf",
+      "storedBytes": 747,
+      "storedSha256": "5428eeaedf27fa07e530ab102dd79de35281b829aea4c8c639c60e4799fffafc",
+      "transformations": [
+        "CRLF to LF"
+      ]
+    },
+    {
+      "file": "mac-registry/results.json",
+      "source": "registry-first-mac/results.json",
+      "sourceBytes": 4065,
+      "sourceSha256": "150f57ce00dc8286196f1f4c17122bed4cb1b949878d761b4cb22dfb49a7a640",
+      "storedBytes": 3945,
+      "storedSha256": "e5d8f30d38e1f660390f22e0091416ac1b2fb6af7606d31fd8029b2e22b0eb91",
+      "transformations": [
+        "Task directory replaced with <task-directory>"
+      ]
+    },
+    {
+      "file": "mac-registry/demo-decode.json",
+      "source": "registry-first-mac/work space/demo-MBChCX/demo-decode.json",
+      "sourceBytes": 664,
+      "sourceSha256": "b0359b813d326bd8fe781162242fa2f947051c7ac2bebc1b0f93ce7af9d0506f",
+      "storedBytes": 664,
+      "storedSha256": "b0359b813d326bd8fe781162242fa2f947051c7ac2bebc1b0f93ce7af9d0506f",
+      "transformations": [
+        "Task directory replaced with <task-directory>"
+      ]
+    },
+    {
+      "file": "mac-registry/test-run-decode.json",
+      "source": "registry-first-mac/work space/test-recording/demo-decode.json",
+      "sourceBytes": 662,
+      "sourceSha256": "fb2e05bdb9645e6735f749bd12717a87f6db200ba76fc8b840f57954789cdc21",
+      "storedBytes": 662,
+      "storedSha256": "fb2e05bdb9645e6735f749bd12717a87f6db200ba76fc8b840f57954789cdc21",
+      "transformations": [
+        "Task directory replaced with <task-directory>"
+      ]
+    },
+    {
+      "file": "harness/registry-probe.mjs",
+      "source": "ci-lab/registry-probe.mjs",
+      "sourceBytes": 8775,
+      "sourceSha256": "0b7fdfd0e6bc5a8eb7f5982491593211a2453289164a555913ddb63b7a46a388",
+      "storedBytes": 8775,
+      "storedSha256": "0b7fdfd0e6bc5a8eb7f5982491593211a2453289164a555913ddb63b7a46a388",
+      "transformations": []
+    },
+    {
+      "file": "harness/distribution-probe.mjs",
+      "source": "ci-lab/distribution-probe.mjs",
+      "sourceBytes": 35798,
+      "sourceSha256": "a8be88a489a05d72f44961bc00edf05d49d5bd4a500a765cad6f57ca5dc88eeb",
+      "storedBytes": 35798,
+      "storedSha256": "a8be88a489a05d72f44961bc00edf05d49d5bd4a500a765cad6f57ca5dc88eeb",
+      "transformations": []
+    },
+    {
+      "file": "harness/preview-cli.mjs",
+      "source": "ci-lab/preview-cli.mjs",
+      "sourceBytes": 6196,
+      "sourceSha256": "c53d92004b3cab17391e9be257b102a58576e324be1da5162cb6f95c91d32383",
+      "storedBytes": 6196,
+      "storedSha256": "c53d92004b3cab17391e9be257b102a58576e324be1da5162cb6f95c91d32383",
+      "transformations": []
+    },
+    {
+      "file": "harness/preview-demo.mjs",
+      "source": "ci-lab/preview-demo.mjs",
+      "sourceBytes": 418,
+      "sourceSha256": "4bb0dffa1da50b0258dd1c16e2f5645c895fedc417875fbd4d0680d7424a060b",
+      "storedBytes": 418,
+      "storedSha256": "4bb0dffa1da50b0258dd1c16e2f5645c895fedc417875fbd4d0680d7424a060b",
+      "transformations": []
+    },
+    {
+      "file": "harness/baseline-fixture.mjs",
+      "source": "ci-lab/baseline-fixture.mjs",
+      "sourceBytes": 949,
+      "sourceSha256": "005ab9e64ff368a3e369408e8a45dfe06557a7406f91b8c734a4a60f15c42a3a",
+      "storedBytes": 949,
+      "storedSha256": "005ab9e64ff368a3e369408e8a45dfe06557a7406f91b8c734a4a60f15c42a3a",
+      "transformations": []
+    },
+    {
+      "file": "harness/inspect-gif.py",
+      "source": "ci-lab/inspect-gif.py",
+      "sourceBytes": 1562,
+      "sourceSha256": "4adf91f098f1724eeb396345dd126580f2c3f1ad4f8bf8af7a3e4a71b284f01b",
+      "storedBytes": 1562,
+      "storedSha256": "4adf91f098f1724eeb396345dd126580f2c3f1ad4f8bf8af7a3e4a71b284f01b",
+      "transformations": []
+    }
+  ]
+}

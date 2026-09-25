@@ -1,0 +1,89 @@
+{
+  "comparisonRecorded": true,
+  "validGif": false,
+  "stage": "installation-only",
+  "platform": "win32",
+  "node": "v24.19.0",
+  "runtimeVersionReadback": "1.4.2",
+  "versionProbeExit": 0,
+  "result": {
+    "label": "bun-install",
+    "code": 0,
+    "signal": null,
+    "error": null,
+    "parentExitConfirmed": true,
+    "cleanupConfirmed": false,
+    "settlement": "closed",
+    "taskkill": null,
+    "timedOut": false,
+    "processId": 2372,
+    "elapsedMs": 2445
+  },
+  "provenance": {
+    "packages": {
+      "@termless/cli": {
+        "version": "0.9.1",
+        "engines": {
+          "bun": ">=1.0.0",
+          "node": ">=24.0.0"
+        },
+        "peerDependencies": {
+          "@termless/core": "^0.9.1",
+          "@termless/ghostty": "^0.9.1",
+          "@termless/peekaboo": "^0.9.1",
+          "@termless/vt100": "^0.9.1",
+          "@termless/vterm": "^0.9.1",
+          "@termless/xtermjs": "^0.9.1"
+        }
+      },
+      "@termless/core": {
+        "version": "0.8.4",
+        "engines": {
+          "bun": ">=1.0.0",
+          "node": ">=23.6.0"
+        },
+        "peerDependencies": {
+          "node-pty": ">=1.0.0"
+        }
+      },
+      "@termless/xtermjs": {
+        "version": "0.9.1",
+        "engines": {
+          "bun": ">=1.0.0",
+          "node": ">=23.6.0"
+        },
+        "peerDependencies": {
+          "@termless/core": "^0.9.1",
+          "silvery": ">=0.4.2"
+        }
+      },
+      "silvery": {
+        "version": "0.24.1",
+        "engines": {
+          "bun": ">=1.0",
+          "node": ">=24.0.0"
+        },
+        "peerDependencies": {
+          "@termless/ghostty": "^0.8.2",
+          "@termless/ghostty-native": "^0.8.1",
+          "@termless/test": "^0.8.1",
+          "@termless/xtermjs": "^0.8.1",
+          "playwright": ">=1.40.0",
+          "react": "^18.0.0 || ^19.0.0"
+        }
+      }
+    },
+    "locks": {
+      "package.json": {
+        "bytes": 135,
+        "sha256": "8d8b8cbd7e37a5b8d7f2f60ddd923a3712d8e1354354d81fb08b03efe9087b81"
+      },
+      "bun.lock": {
+        "bytes": 35526,
+        "sha256": "441db836a94b5ec9cb9f115296aebfe7c8f2137404848710b014fd26426ec369"
+      }
+    },
+    "registry": "https://registry.npmjs.org/",
+    "lifecycleScriptsEnabled": false
+  }
+}

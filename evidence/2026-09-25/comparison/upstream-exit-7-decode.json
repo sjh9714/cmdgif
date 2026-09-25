@@ -1,0 +1,25 @@
+{
+  "file": "actual.gif",
+  "decoded": true,
+  "desktop_capture": false,
+  "ocr_checked": false,
+  "independent_user_test": false,
+  "size": [
+    708,
+    332
+  ],
+  "frames": 4,
+  "duration_ms": [
+    60,
+    390,
+    420,
+    2000
+  ],
+  "pixel_hashes": [
+    "3b88b7bb4ab9faa962403ba3ab184fb874abad855c712d12b90ce445e304d217",
+    "09464b4f47f9330eb5653f6e5e7589deb937fdd127817881a1d4f1aa83eb14b8",
+    "689caf8fbfd7c9c420c0396fa5ed73e0353ade74f920d314f12f780bdd6b5282",
+    "6600db291c92b970318188fb69bf512b2f9baddd2c6dc31f489b12cf5b6e48de"
+  ],
+  "last_frame_nonuniform": true
+}

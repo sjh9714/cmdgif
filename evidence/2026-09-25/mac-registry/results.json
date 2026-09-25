@@ -1,0 +1,92 @@
+{
+  "checkedAt": "2026-09-24T23:51:01.053Z",
+  "node": "v24.19.0",
+  "platform": "darwin",
+  "arch": "arm64",
+  "registry": "https://registry.npmjs.org/",
+  "package": "cmdgif",
+  "version": "0.1.0-beta.1",
+  "publishedAt": "2026-09-24T23:41:30.939Z",
+  "tarballUrl": "https://registry.npmjs.org/cmdgif/-/cmdgif-0.1.0-beta.1.tgz",
+  "tarballSha256": "81f2fc95efde5bae57c9a7a02f9cb3b493b93dbc9a109985a503ee678e943cf6",
+  "integrity": "sha512-ufpCjIS8racxpYMO5+onsnJwBldvcgMZJ+fAkvWBFdIlhW7ZD9NriKO7eIGCFS9wahzsK5rhbNVxhN+HuqJr8Q==",
+  "limit": "Mac maintainer registry run. Not Windows registry execution, retail installation, or independent use. Lifecycle scripts disabled; this package declares none.",
+  "runs": [
+    {
+      "label": "registry-demo",
+      "args": [
+        "--yes",
+        "cmdgif@beta",
+        "--demo"
+      ],
+      "code": 0,
+      "signal": null,
+      "error": null,
+      "timedOut": false,
+      "parentExitConfirmed": true,
+      "cleanupConfirmed": false,
+      "settlement": "closed",
+      "taskkill": null,
+      "pid": 26757,
+      "elapsedMs": 2866,
+      "logs": [
+        "registry-demo.stdout.log",
+        "registry-demo.stderr.log"
+      ]
+    },
+    {
+      "label": "record-existing-tests",
+      "args": [
+        "--offline",
+        "--yes",
+        "cmdgif@beta",
+        "--out",
+        "test-recording",
+        "--",
+        "node",
+        "--test",
+        "--test-reporter=spec",
+        "test/cli.test.mjs"
+      ],
+      "code": 0,
+      "signal": null,
+      "error": null,
+      "timedOut": false,
+      "parentExitConfirmed": true,
+      "cleanupConfirmed": false,
+      "settlement": "closed",
+      "taskkill": null,
+      "pid": 26835,
+      "elapsedMs": 1219,
+      "logs": [
+        "record-existing-tests.stdout.log",
+        "record-existing-tests.stderr.log"
+      ]
+    }
+  ],
+  "installed": {
+    "version": "0.1.0-beta.1",
+    "resolved": "https://registry.npmjs.org/cmdgif/-/cmdgif-0.1.0-beta.1.tgz",
+    "integrity": "sha512-ufpCjIS8racxpYMO5+onsnJwBldvcgMZJ+fAkvWBFdIlhW7ZD9NriKO7eIGCFS9wahzsK5rhbNVxhN+HuqJr8Q==",
+    "identicalFiles": 151
+  },
+  "demo": {
+    "directory": "<task-directory>/work space/demo-MBChCX",
+    "finalText": "cmdgif demo\n1. Run a real command\n2. Save its terminal output as GIF and SVG\nDone. This was actual Node output.",
+    "gifSha256": "8296a311030e37975604071aeefd7f8e398114e4e098f1b366da60f8c4988222"
+  },
+  "commandInputs": {
+    "bin/preview-cli.mjs": "c53d92004b3cab17391e9be257b102a58576e324be1da5162cb6f95c91d32383",
+    "bin/preview-demo.mjs": "4bb0dffa1da50b0258dd1c16e2f5645c895fedc417875fbd4d0680d7424a060b",
+    "test/cli.test.mjs": "4b7c4b96c6eff919ee15fa7bede9ea52328c0771de614d8a68bacc715f272942"
+  },
+  "actualCommand": {
+    "command": "node --test --test-reporter=spec test/cli.test.mjs",
+    "directory": "<task-directory>/work space/test-recording",
+    "finalText": "ss behavior (5.601875ms)\n✔ explicit fresh directory works and normal nonzero exit 7 preserves outputs and\n status (1.351416ms)\n✔ existing directory and file are rejected without changing their bytes (1.16462\n5ms)\n✔ existing directory symlink is rejected and its target is unchanged (1.06025ms)\n✔ demo invokes the bundled source script through the actual Node executable (1.4\n2425ms)\n✔ start failure or invalid executable result removes only its empty output direc\ntory (0.932541ms)\n✔ missing results are not success and unrelated partial files are retained (1.00\n5833ms)\n✔ npm-style symlink entry executes offline help (27.721708ms)\n✔ demo source produces real bounded Node output without creating files (485.1008\n75ms)\nℹ tests 13\nℹ suites 0\nℹ pass 13\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 574.837584",
+    "gifSha256": "0d9d8829b09d3d4c4b668205f762cbd473ca3e0c64989d46e4021be757760f5f",
+    "independentUse": false
+  },
+  "originalFilesUnchanged": true,
+  "passed": true
+}

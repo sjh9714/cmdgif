@@ -1,0 +1,57 @@
+{
+  "kind": "termless",
+  "scope": "decoded GIF production and observed test-process completion only",
+  "excludes": [
+    "visual glyph/final-screen confirmation",
+    "correct command-exit propagation",
+    "interactive cancellation",
+    "independent users"
+  ],
+  "passed": false,
+  "cases": [
+    {
+      "name": "node-exit0-9878f686-1bdb-4b1b-90f5-c69f732c4a2b",
+      "expectedFixtureExit": 0,
+      "commandExitPreserved": false,
+      "checks": {
+        "recorderEnded": true,
+        "fixtureCompleted": false,
+        "decoded": false
+      },
+      "passed": false
+    },
+    {
+      "name": "node-exit7-0d108a4d-e98a-4339-b887-61a67d5b612e",
+      "expectedFixtureExit": 7,
+      "commandExitPreserved": false,
+      "checks": {
+        "recorderEnded": true,
+        "fixtureCompleted": false,
+        "decoded": false
+      },
+      "passed": false
+    },
+    {
+      "name": "bun-exit0-914567f3-6056-4284-915e-90711e8b836c",
+      "expectedFixtureExit": 0,
+      "commandExitPreserved": false,
+      "checks": {
+        "recorderEnded": true,
+        "fixtureCompleted": false,
+        "decoded": false
+      },
+      "passed": false
+    },
+    {
+      "name": "bun-exit7-a2139ff6-6d74-4af2-87df-cb641602a75e",
+      "expectedFixtureExit": 7,
+      "commandExitPreserved": false,
+      "checks": {
+        "recorderEnded": true,
+        "fixtureCompleted": false,
+        "decoded": false
+      },
+      "passed": false
+    }
+  ]
+}

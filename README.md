@@ -58,7 +58,7 @@ The capture and rendering engine is ttysvg, not a new encoder. cmdgif adds a bun
 
 Use ttysvg directly for its wizard, tape scripts, themes and other export options. cmdgif intentionally exposes fewer choices for a first recording. It does not claim to be faster or more capable than ttysvg.
 
-See the [setup comparison](COMPARISON.md) for what gets simpler and when an existing tool may suit you better. The [comparison lab](https://github.com/sjh9714/command-demo-lab) includes a working PowerSession + agg Windows alternative and the exact limits of our synthetic checks. CI success is not independent user validation.
+See the [setup comparison](COMPARISON.md) for what gets simpler and when an existing tool may suit you better. The [preserved validation evidence](evidence/2026-09-25/README.md) includes a working PowerSession + agg Windows alternative and the exact limits of our synthetic checks. CI success is not independent user validation.
 
 ## Credits and licenses
 

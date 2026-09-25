@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "comparisonRecorded": true,
+  "validGif": false,
+  "platform": "windows-x64",
+  "windowsVersion": "Microsoft Windows NT 10.0.20348.0",
+  "fixtureSha256": "005ab9e64ff368a3e369408e8a45dfe06557a7406f91b8c734a4a60f15c42a3a",
+  "prerequisites": [
+    "Windows x64 with ConPTY",
+    "existing Node executable",
+    "two downloaded upstream EXEs",
+    "isolated console host for this CI harness"
+  ],
+  "verificationPrerequisites": [
+    "optional existing Python with Pillow for full GIF decoding"
+  ],
+  "noAdminRequiredByHarness": true,
+  "globalSettingsChanged": false,
+  "upstreamSourceBuildAttempted": false,
+  "harnessInteropCompilation": "PowerShell built-in Add-Type",
+  "networkUploadAttempted": false,
+  "desktopCapture": false,
+  "independentUserTest": false,
+  "glyphVisualInspection": false,
+  "stages": [
+    {
+      "name": "download-PowerSession.exe",
+      "version": "0.1.16",
+      "url": "https://github.com/Watfaq-legacy/PowerSession-rs/releases/download/v0.1.16/PowerSession.exe",
+      "expectedSha256": "8310b2a0e6bb88f08624db6ee3245d7efb89bf01a1f4459a2bf4ab0f1525bbf4",
+      "expectedBytes": 5085696,
+      "verified": true,
+      "license": "MIT",
+      "exitCode": null,
+      "sha256": "8310b2a0e6bb88f08624db6ee3245d7efb89bf01a1f4459a2bf4ab0f1525bbf4",
+      "bytes": 5085696,
+      "elapsedMs": 1345
+    },
+    {
+      "name": "download-agg.exe",
+      "version": "1.9.0",
+      "url": "https://github.com/asciinema/agg/releases/download/v1.9.0/agg-x86_64-pc-windows-msvc.exe",
+      "expectedSha256": "810baf5506e74ca65d8ed85be3db58791086c8b7b0a17c9018d7fede473f0055",
+      "expectedBytes": 14344704,
+      "verified": true,
+      "license": "GPL-3.0-or-later",
+      "exitCode": null,
+      "sha256": "810baf5506e74ca65d8ed85be3db58791086c8b7b0a17c9018d7fede473f0055",
+      "bytes": 14344704,
+      "elapsedMs": 412
+    },
+    {
+      "name": "node-version",
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMs": 46,
+      "stdout": "v24.19.0"
+    },
+    {
+      "name": "powersession-version",
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMs": 31,
+      "stdout": "PowerSession 0.1.16"
+    },
+    {
+      "name": "agg-version",
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMs": 60,
+      "stdout": "agg 1.9.0"
+    }
+  ],
+  "cases": [
+    {
+      "name": "exit0",
+      "expectedFixtureExit": 0,
+      "comparisonRecorded": true,
+      "validGif": false,
+      "automatedContentPassed": false,
+      "fixtureExitDirectlyObserved": false,
+      "glyphVisualInspection": false,
+      "record": {
+        "pid": 2252,
+        "elapsedMs": 1104,
+        "timedOut": false,
+        "exitCode": 0,
+        "error": null,
+        "parentExitConfirmed": true
+      },
+      "fixtureCleanup": {
+        "receiptVerified": true,
+        "gone": true
+      },
+      "consolePrerequisite": "separate hidden console; stdout not redirected",
+      "recorderExitMatchesExpectedFixture": true,
+      "captureProduced": true,
+      "cast": {
+        "file": "exit0.cast",
+        "version": 2,
+        "width": 120,
+        "height": 30,
+        "outputEvents": 4,
+        "start": true,
+        "final": true,
+        "korean": true,
+        "unicode": true
+      },
+      "render": {
+        "name": "exit0-agg",
+        "exitCode": 0,
+        "timedOut": false,
+        "elapsedMs": 3223,
+        "stdout": "1 / 4 [=============>---------------------------------------] 25.00 % 4.62/s 1s \r2 / 4 [==========================>--------------------------] 50.00 % 8.54/s 0s \r3 / 4 [======================================>-------------] 75.00 % 12.01/s 0s \r4 / 4 [======================================================] 100.00 % 14.88/s"
+      },
+      "gifProduced": true,
+      "gifBytes": 8083,
+      "decoderStatus": "not provided; file existence is not decode success"
+    },
+    {
+      "name": "exit7",
+      "expectedFixtureExit": 7,
+      "comparisonRecorded": true,
+      "validGif": false,
+      "automatedContentPassed": false,
+      "fixtureExitDirectlyObserved": false,
+      "glyphVisualInspection": false,
+      "record": {
+        "pid": 3924,
+        "elapsedMs": 1108,
+        "timedOut": false,
+        "exitCode": 0,
+        "error": null,
+        "parentExitConfirmed": true
+      },
+      "fixtureCleanup": {
+        "receiptVerified": true,
+        "gone": true
+      },
+      "consolePrerequisite": "separate hidden console; stdout not redirected",
+      "recorderExitMatchesExpectedFixture": false,
+      "captureProduced": true,
+      "cast": {
+        "file": "exit7.cast",
+        "version": 2,
+        "width": 120,
+        "height": 30,
+        "outputEvents": 4,
+        "start": true,
+        "final": true,
+        "korean": true,
+        "unicode": true
+      },
+      "render": {
+        "name": "exit7-agg",
+        "exitCode": 0,
+        "timedOut": false,
+        "elapsedMs": 228,
+        "stdout": "1 / 4 [=============>---------------------------------------] 25.00 % 7.47/s 0s \r2 / 4 [=========================>--------------------------] 50.00 % 13.50/s 0s \r3 / 4 [======================================>-------------] 75.00 % 17.80/s 0s \r4 / 4 [======================================================] 100.00 % 20.41/s"
+      },
+      "gifProduced": true,
+      "gifBytes": 8012,
+      "decoderStatus": "not provided; file existence is not decode success"
+    }
+  ],
+  "fixtureUnchanged": true,
+  "totalElapsedMs": 14482,
+  "resultMeaning": "Exit zero means report collection, not recorder success; see per-stage exit codes and validGif."
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "powersession",
+  "scope": "decoded GIF production and observed test-process completion only",
+  "excludes": [
+    "visual glyph/final-screen confirmation",
+    "correct command-exit propagation",
+    "interactive cancellation",
+    "independent users"
+  ],
+  "passed": true,
+  "cases": [
+    {
+      "name": "exit0",
+      "commandExitPreserved": true,
+      "checks": {
+        "recordEnded": true,
+        "fixtureReceipt": true,
+        "fixtureGone": true,
+        "castMarkers": true,
+        "renderCompleted": true,
+        "decoded": true
+      },
+      "passed": true
+    },
+    {
+      "name": "exit7",
+      "commandExitPreserved": false,
+      "checks": {
+        "recordEnded": true,
+        "fixtureReceipt": true,
+        "fixtureGone": true,
+        "castMarkers": true,
+        "renderCompleted": true,
+        "decoded": true
+      },
+      "passed": true
+    }
+  ]
+}

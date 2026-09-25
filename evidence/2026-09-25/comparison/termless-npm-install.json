@@ -1,0 +1,38 @@
+{
+  "comparisonRecorded": true,
+  "validGif": false,
+  "stage": "installation-only",
+  "platform": "win32",
+  "node": "v24.19.0",
+  "runtimeVersionReadback": "11.17.0",
+  "versionProbeExit": 0,
+  "result": {
+    "label": "install",
+    "code": 1,
+    "signal": null,
+    "error": null,
+    "parentExitConfirmed": true,
+    "cleanupConfirmed": false,
+    "settlement": "closed",
+    "taskkill": null,
+    "timedOut": false,
+    "processId": 4508,
+    "elapsedMs": 11326
+  },
+  "provenance": {
+    "packages": {
+      "@termless/cli": null,
+      "@termless/core": null,
+      "@termless/xtermjs": null,
+      "silvery": null
+    },
+    "locks": {
+      "package.json": {
+        "bytes": 131,
+        "sha256": "1fa72a0b944d73266108be94a27f2456f469cf245ea2e8e833872b394519f54c"
+      }
+    },
+    "registry": "https://registry.npmjs.org/",
+    "lifecycleScriptsEnabled": false
+  }
+}

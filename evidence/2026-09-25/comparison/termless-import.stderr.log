@@ -1,0 +1,11 @@
+file:///D:/a/command-demo-lab/command-demo-lab/baseline-bun-install/node_modules/@termless/cli/dist/cli.mjs:9
+import { encodeAsciicast, generateTape, isTtyPath, isTtyzPath, readBundle, readRecording, trackAuthority, unpackRecording } from "@termless/core";
+                                        ^^^^^^^^^
+SyntaxError: The requested module '@termless/core' does not provide an export named 'isTtyPath'
+    at #asyncInstantiate (node:internal/modules/esm/module_job:327:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:431:5)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v24.19.0

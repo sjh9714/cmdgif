@@ -1,0 +1,27 @@
+{
+  "file": "demo.gif",
+  "decoded": true,
+  "desktop_capture": false,
+  "ocr_checked": false,
+  "independent_user_test": false,
+  "size": [
+    490,
+    218
+  ],
+  "frames": 5,
+  "duration_ms": [
+    30,
+    150,
+    150,
+    150,
+    2000
+  ],
+  "pixel_hashes": [
+    "03ec4d12900236468b7729b6eacfb65dce8efc04c72d0a3f0c4f4b111e04fee8",
+    "ecf4b01a9439b0592ff027c8f61af5768a457cac075e6be862187a7232ba5fdd",
+    "5a67d554741ccb1aebc8db39b218e9ece820cdbcd2c2d2f5a63c5c8d28735402",
+    "04a5feba678e8240184db37de0cdca9626325078e4a6fd0e2c8931a15f94dcbf",
+    "e9092187f1b49d334e569141129090909c0949d746fe4e42cd1e494ce6a75524"
+  ],
+  "last_frame_nonuniform": true
+}

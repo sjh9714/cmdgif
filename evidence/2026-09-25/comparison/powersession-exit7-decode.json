@@ -1,0 +1,25 @@
+{
+  "file": "exit7.gif",
+  "decoded": true,
+  "desktop_capture": false,
+  "ocr_checked": false,
+  "independent_user_test": false,
+  "size": [
+    1073,
+    694
+  ],
+  "frames": 4,
+  "duration_ms": [
+    40,
+    420,
+    410,
+    3000
+  ],
+  "pixel_hashes": [
+    "981f63cf8fb2db1c34001db6cc43a980c0f87ceff2f44927885781a75fe7e97c",
+    "9ab59050d364f090e2bd559066e7993328fc2b53daef83ec80cac9c0c47dcf2f",
+    "47810f9fbffec1e089029dc2df71658beb0a5935076d15d0f3426c76725e856e",
+    "a2a212edf17dd94a1aa22e927811e2a597b8a3135a8537ff6a00ed5ffa514f20"
+  ],
+  "last_frame_nonuniform": true
+}

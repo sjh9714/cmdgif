@@ -1,0 +1,172 @@
+{
+  "comparisonRecorded": true,
+  "validGif": false,
+  "node": "v24.19.0",
+  "bun": "D:\\a\\_temp\\termless-runtime\\runtime\\bun-windows-x64-baseline\\bun.exe",
+  "platform": "win32",
+  "provenance": {
+    "packages": {
+      "@termless/cli": {
+        "version": "0.9.1",
+        "engines": {
+          "bun": ">=1.0.0",
+          "node": ">=24.0.0"
+        },
+        "peerDependencies": {
+          "@termless/core": "^0.9.1",
+          "@termless/ghostty": "^0.9.1",
+          "@termless/peekaboo": "^0.9.1",
+          "@termless/vt100": "^0.9.1",
+          "@termless/vterm": "^0.9.1",
+          "@termless/xtermjs": "^0.9.1"
+        }
+      },
+      "@termless/core": {
+        "version": "0.8.4",
+        "engines": {
+          "bun": ">=1.0.0",
+          "node": ">=23.6.0"
+        },
+        "peerDependencies": {
+          "node-pty": ">=1.0.0"
+        }
+      },
+      "@termless/xtermjs": {
+        "version": "0.9.1",
+        "engines": {
+          "bun": ">=1.0.0",
+          "node": ">=23.6.0"
+        },
+        "peerDependencies": {
+          "@termless/core": "^0.9.1",
+          "silvery": ">=0.4.2"
+        }
+      },
+      "silvery": {
+        "version": "0.24.1",
+        "engines": {
+          "bun": ">=1.0",
+          "node": ">=24.0.0"
+        },
+        "peerDependencies": {
+          "@termless/ghostty": "^0.8.2",
+          "@termless/ghostty-native": "^0.8.1",
+          "@termless/test": "^0.8.1",
+          "@termless/xtermjs": "^0.8.1",
+          "playwright": ">=1.40.0",
+          "react": "^18.0.0 || ^19.0.0"
+        }
+      }
+    },
+    "locks": {
+      "package.json": {
+        "bytes": 135,
+        "sha256": "8d8b8cbd7e37a5b8d7f2f60ddd923a3712d8e1354354d81fb08b03efe9087b81"
+      },
+      "bun.lock": {
+        "bytes": 35526,
+        "sha256": "441db836a94b5ec9cb9f115296aebfe7c8f2137404848710b014fd26426ec369"
+      }
+    },
+    "registry": "https://registry.npmjs.org/",
+    "lifecycleScriptsEnabled": false
+  },
+  "results": [
+    {
+      "label": "node-exit0-9878f686-1bdb-4b1b-90f5-c69f732c4a2b",
+      "code": 1,
+      "signal": null,
+      "error": null,
+      "parentExitConfirmed": true,
+      "cleanupConfirmed": false,
+      "settlement": "closed",
+      "taskkill": null,
+      "timedOut": false,
+      "processId": 3584,
+      "elapsedMs": 255,
+      "runtime": "node",
+      "expectedFixtureExit": 0,
+      "recorderExitMatchesExpectedFixture": false,
+      "comparisonRecorded": true,
+      "validGif": false,
+      "decodeValidation": "not-performed",
+      "fixture": {
+        "observed": false,
+        "cleanupConfirmed": false
+      },
+      "artifact": null
+    },
+    {
+      "label": "node-exit7-0d108a4d-e98a-4339-b887-61a67d5b612e",
+      "code": 1,
+      "signal": null,
+      "error": null,
+      "parentExitConfirmed": true,
+      "cleanupConfirmed": false,
+      "settlement": "closed",
+      "taskkill": null,
+      "timedOut": false,
+      "processId": 4812,
+      "elapsedMs": 233,
+      "runtime": "node",
+      "expectedFixtureExit": 7,
+      "recorderExitMatchesExpectedFixture": false,
+      "comparisonRecorded": true,
+      "validGif": false,
+      "decodeValidation": "not-performed",
+      "fixture": {
+        "observed": false,
+        "cleanupConfirmed": false
+      },
+      "artifact": null
+    },
+    {
+      "label": "bun-exit0-914567f3-6056-4284-915e-90711e8b836c",
+      "code": 1,
+      "signal": null,
+      "error": null,
+      "parentExitConfirmed": true,
+      "cleanupConfirmed": false,
+      "settlement": "closed",
+      "taskkill": null,
+      "timedOut": false,
+      "processId": 7216,
+      "elapsedMs": 3412,
+      "runtime": "bun",
+      "expectedFixtureExit": 0,
+      "recorderExitMatchesExpectedFixture": false,
+      "comparisonRecorded": true,
+      "validGif": false,
+      "decodeValidation": "not-performed",
+      "fixture": {
+        "observed": false,
+        "cleanupConfirmed": false
+      },
+      "artifact": null
+    },
+    {
+      "label": "bun-exit7-a2139ff6-6d74-4af2-87df-cb641602a75e",
+      "code": 1,
+      "signal": null,
+      "error": null,
+      "parentExitConfirmed": true,
+      "cleanupConfirmed": false,
+      "settlement": "closed",
+      "taskkill": null,
+      "timedOut": false,
+      "processId": 8132,
+      "elapsedMs": 146,
+      "runtime": "bun",
+      "expectedFixtureExit": 7,
+      "recorderExitMatchesExpectedFixture": false,
+      "comparisonRecorded": true,
+      "validGif": false,
+      "decodeValidation": "not-performed",
+      "fixture": {
+        "observed": false,
+        "cleanupConfirmed": false
+      },
+      "artifact": null
+    }
+  ]
+}
