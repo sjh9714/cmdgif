@@ -20,7 +20,11 @@ The same installed package, with npm offline, then recorded the actual command `
 
 ![Actual cmdgif recording of its Node test run on macOS](assets/test-run.gif)
 
-The [registry probe](https://github.com/sjh9714/command-demo-lab/blob/codex/windows-recorder-probe/registry-probe.mjs) records the exact setup and readback checks. This adds a Mac public-registry path, not a Windows registry run, retail Windows installation or independent-user study. The Windows evidence remains the exact same local tarball on the CI runner above.
+The [registry probe](https://github.com/sjh9714/command-demo-lab/blob/codex/windows-recorder-probe/registry-probe.mjs) records the exact setup and readback checks.
+
+A separate [Windows public-registry run](https://github.com/sjh9714/command-demo-lab/actions/runs/36077148811) at `2026-09-25T00:21:45Z` used Windows Server 2022 build 20348, Node 24.19.0 and npm 11.17.0. One fresh-cache `npx --yes cmdgif@beta --demo` selected 0.1.0-beta.1, with the same registry archive, integrity and all 151 installed file hashes. The same installation then recorded the existing test command with npm offline: 12 passed, none failed, and the existing POSIX symlink-entry test skipped Windows. Both commands exited normally with code 0, and project notes and source bytes remained unchanged. The demo's five frames and test recording's six frames decoded; their final images were visually checked.
+
+These public-registry checks invoke npm's `npx-cli.js` and its package command entry, with isolated cache/configuration and lifecycle scripts disabled. They do not establish the interactive PowerShell `npx.ps1` wrapper, retail Windows GUI setup, whole-process-tree cleanup, or independent-user success. The Windows workflow's 11 returned evidence files were length/hash checked after retrieval. No product code, native binary or npm version changed for this additional check.
 
 ## Native engine source
 
